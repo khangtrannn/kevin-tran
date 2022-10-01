@@ -8,6 +8,10 @@
   position: -webkit-sticky;
   background-color: hsla(0,0%,100%,.95);
 
+  @include tabletAndDesktop() {
+    top: var(--header-height);
+  }
+
   &::before {
     content: "";
     display: block;
