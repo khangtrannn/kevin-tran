@@ -1,0 +1,49 @@
+@import 'responsive';
+
+.header {
+  z-index: 999999;
+  padding: 0 .625rem .625rem;
+  top: 0;
+  position: sticky;
+  position: -webkit-sticky;
+  background-color: hsla(0,0%,100%,.95);
+
+  &::before {
+    content: "";
+    display: block;
+    padding-top: 1rem;
+  }
+
+  .title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(238, 77, 45);
+    text-transform: uppercase;
+  }
+}
+
+.suggestion-wrapper {
+  padding: 0 .1875rem;
+  display: flex;
+  flex-wrap: wrap;
+
+  @include tabletAndDesktop() {
+    padding: 0;
+    margin-right: -.3125rem;
+    margin-left: -.3125rem;
+  }
+}
+
+:host ::ng-deep {
+  app-product-card {
+    width: 50%;
+    padding: .1875rem;
+  }
+
+  @include tabletAndDesktop() {
+    app-product-card {
+      padding: .3125rem;
+      width: calc(100% / 6);
+    }
+  }
+}

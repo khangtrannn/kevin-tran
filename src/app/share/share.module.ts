@@ -8,6 +8,7 @@ import { BadgeComponent } from './components/badge/badge.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { CategoryComponent } from './components/category/category.component';
 import { ProductCardComponent } from './components/product-card/product-card.component';
+import { ProductListComponent } from './components/product-list/product-list.component';
 import { RatingComponent } from './components/rating/rating.component';
 
 const declarations = [
@@ -15,7 +16,8 @@ const declarations = [
   CategoryComponent,
   ProductCardComponent,
   BadgeComponent,
-  RatingComponent
+  RatingComponent,
+  ProductListComponent,
 ];
 
 @NgModule({

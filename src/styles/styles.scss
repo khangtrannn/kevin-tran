@@ -35,11 +35,23 @@ $kt-shopee-theme: mat.define-light-theme((
 
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+// TODO: set height 100% cause position sticky won't work properly
+// html, body { height: 100%; }
 
 /* Importing Bootstrap SCSS file. */
 @tailwind utilities;
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
 @import 'node_modules/ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+@import 'responsive';
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: #efefef;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+}
