@@ -5,8 +5,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BannerComponent } from './components/banner/banner.component';
+import { CategoryComponent } from './components/category/category.component';
 
-const declarations = [BannerComponent];
+const declarations = [BannerComponent, CategoryComponent];
 
 @NgModule({
   imports: [CommonModule, BrowserModule, BrowserAnimationsModule, CarouselModule, HttpClientModule],

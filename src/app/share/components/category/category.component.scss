@@ -1,0 +1,39 @@
+.title {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: 2.625rem;
+  font-size: .625rem;
+  line-height: .875rem;
+  color: rgba(0,0,0,.87);
+  word-wrap: break-word;
+  overflow: hidden;
+  white-space: pre-line;
+}
+
+.indicator {
+  width: 9px;
+  transform: translateX(0px);
+  background: #ee4d2d;
+  height: .25rem;
+  border-radius: .0625rem;
+
+  &-wrapper {
+    height: .25rem;
+    border-radius: .0625rem;
+    position: absolute;
+    bottom: .3125rem;
+    left: calc(50% - .75rem);
+    width: 1.5rem;
+    background: #efefef;
+  }
+}
+
+:host {
+  .category {
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}

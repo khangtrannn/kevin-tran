@@ -1,0 +1,15 @@
+<div class="relative">
+  <div class="category py-[1rem] h-[14rem] w-full overflow-x-scroll overflow-y-hidden">
+    <div class="flex flex-col flex-wrap h-full w-full">
+      <div class="h-[6rem] w-[24%] text-center" *ngFor="let category of categories">
+        <div class="positive">
+          <img class="w-[2.625rem] h-[2.625rem] mb-[.25rem]" [alt]="category.title"  [src]="category.icon"/>
+        </div>
+        <span class="title">{{ category.title }}</span>
+      </div>
+    </div>
+  </div>
+  <div class="indicator-wrapper">
+    <div class="indicator"></div>
+  </div>
+</div>
