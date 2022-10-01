@@ -22,15 +22,14 @@
   }
 }
 
-.suggestion-wrapper {
+.wrapper {
   padding: 0 .1875rem;
   display: flex;
   flex-wrap: wrap;
 
   @include tabletAndDesktop() {
     padding: 0;
-    margin-right: -.3125rem;
-    margin-left: -.3125rem;
+    margin: .3125rem -.3125rem;
   }
 }
 
