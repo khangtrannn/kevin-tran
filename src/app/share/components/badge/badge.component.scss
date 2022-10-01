@@ -1,0 +1,23 @@
+.full-badge {
+  position: relative;
+  color: rgb(246, 145, 19);
+  margin-right: 0.25rem;
+  height: 100%;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(246, 145, 19);
+
+    .title {
+      color: white;
+      margin: 0 0.1875rem;
+      white-space: nowrap;
+      overflow: hidden;
+      font-weight: 500;
+      text-overflow: ellipsis;
+      padding: 0 0.0625rem;
+    }
+  }
+}
