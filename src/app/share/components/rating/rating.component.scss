@@ -1,0 +1,14 @@
+.rating-wrapper {
+  display: flex;
+  position: relative;
+  margin-right: 1px;
+
+  .star {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    color: #ffce3d;
+    fill: #ffce3d;
+  }
+}
