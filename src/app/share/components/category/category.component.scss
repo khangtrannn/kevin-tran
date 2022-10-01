@@ -13,6 +13,12 @@
   word-wrap: break-word;
   overflow: hidden;
   white-space: pre-line;
+
+  @include tabletAndDesktop() {
+    font-size: .8125rem;
+    line-height: 1rem;
+    margin-bottom: 8px;
+  }
 }
 
 .indicator {
@@ -85,6 +91,7 @@
       @include tabletAndDesktop() {
         width: 45px;
         height: 45px;
+        margin: 18px auto 8px;
       }
     }
   }
