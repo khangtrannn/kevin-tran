@@ -1,3 +1,11 @@
+@import 'responsive';
+
+.wrapper {
+  @include tabletAndDesktop() {
+    padding-top: 30px;
+  }
+}
+
 :host ::ng-deep {
   .owl-item {
     &:not(.active) {

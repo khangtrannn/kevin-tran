@@ -1,7 +1,9 @@
-<owl-carousel-o [options]="customOptions">
-  <ng-template *ngFor="let slide of slides" [id]="slide.id" carouselSlide>
-    <div class="slide">
-      <img [src]="slide.url" [alt]="slide.title">
-    </div>
-  </ng-template>
-</owl-carousel-o>
+<div class="wrapper">
+  <owl-carousel-o [options]="customOptions">
+    <ng-template *ngFor="let slide of slides" [id]="slide.id" carouselSlide>
+      <div class="slide">
+        <img [src]="slide.url" [alt]="slide.title">
+      </div>
+    </ng-template>
+  </owl-carousel-o>
+</div>
