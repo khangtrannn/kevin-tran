@@ -3,6 +3,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RouterModule } from '@angular/router';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { ProductBottomPanelComponent } from './../components/product-detail/components/product-bottom-panel/product-bottom-panel.component';
 import { BadgeComponent } from './components/badge/badge.component';
@@ -41,6 +42,7 @@ const declarations = [
     BrowserAnimationsModule,
     CarouselModule,
     HttpClientModule,
+    RouterModule,
   ],
   declarations: [...declarations],
   exports: [...declarations],
