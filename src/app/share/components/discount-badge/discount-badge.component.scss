@@ -1,4 +1,6 @@
 .discount-badge {
+  position: relative;
+
   &__wrapper {
     display: flex;
     flex-direction: column;
