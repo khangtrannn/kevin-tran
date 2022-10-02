@@ -1,3 +1,36 @@
-<p>
-  product-detail works!
-</p>
+<div class="product-detail">
+  <div class="product-detail__carousel">
+    <div class="product-detail__carousel-placeholder">
+      <img src="https://cf.shopee.vn/file/65967b7f7115f2a0cb30f6e1cf4a58e6" />
+    </div>
+  </div>
+
+  <div class="product-detail__overview">
+    <div class="flex">
+      <div class="product-detail__title">
+        <div class="badge badge--preferred">Yêu thích</div>
+        <span>Bàn phím cơ Keychron K8 Pro - Hỗ trợ QMK/VIA - (Hàng chính hãng)</span>
+      </div>
+      <app-discount-badge [percent]="4"></app-discount-badge>
+    </div>
+
+    <div class="product-detail__price">
+      <div>
+        <div class="actual-price">₫2.189.000 - ₫2.490.000</div>
+        <div class="discount-price">₫2.290.000 - ₫2.590.000</div>
+      </div>
+      <div class="flex items-center h-[1.6875rem]">
+        <div class="badge--outline">Mua Kèm Deal Sốc</div>
+      </div>
+    </div>
+
+    <div class="product-detail__review flex items-center h-12">
+      <div class="flex">
+        <app-rating *ngFor="let i of [].constructor(5)"></app-rating>
+      </div>
+      <div class="sold-count">
+        <span>61 Đã bán</span>
+      </div>
+    </div>
+  </div>
+</div>

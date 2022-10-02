@@ -21,7 +21,7 @@
     <div class="product-card__content-title">{{ product.title }}</div>
     <div class="product-card__content-badge">
       <app-badge *ngIf="product.promotionBadge.fullBadge" [content]="product.promotionBadge.fullBadge"></app-badge>
-      <div class="outline-badge">Mua Kèm Deal Sốc</div>
+      <div class="badge--outline">Mua Kèm Deal Sốc</div>
     </div>
     <div class="product-card__content-price">
       <div *ngIf="product.discount" class="discount-price">₫{{ getDiscountPrice() | number:'1.0-0' }}</div>

@@ -70,3 +70,26 @@ body {
   position: fixed;
   top: 0;
 }
+
+.badge {
+  &--outline {
+    color: #ee4d2d;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: .125rem .25rem;
+    border: .0625rem solid;
+    border-radius: .0625rem;
+  }
+
+  &--preferred {
+    font-size: .75rem;
+    height: 1rem;
+    line-height: .875rem;
+    border-radius: .125rem;
+    padding: .125rem .25rem;
+    white-space: nowrap;
+    background-color: #ee4d2d;
+    color: #fff;
+  }
+}
