@@ -36,4 +36,15 @@
       </div>
     </div>
   </div>
+
+  <div class="product-detail__description">
+    <p class="title">Description</p>
+
+    <div class="product-attributes-table">
+      <div *ngFor="let attribute of productAttributes" class="product-attributes-sub-table flex">
+        <div class="attribute">{{ attribute.attribute }}</div>
+        <div class="value">{{ attribute.value }}</div>
+      </div>
+    </div>
+  </div>
 </div>

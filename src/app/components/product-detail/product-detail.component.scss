@@ -96,6 +96,46 @@
       }
     }
 
+    &__description {
+      margin-top: .75rem;
+      background-color: #fff;
+
+      .title {
+        font-weight: 500;
+        font-size: .875rem;
+        padding: 1rem;
+        margin: 0;
+      }
+
+      .product-attributes-table {
+        font-weight: 300;
+        font-size: .875rem;
+        margin: 0 .75rem .625rem;
+
+        .product-attributes-sub-table {
+          .attribute {
+            width: 6.875rem;
+            padding: .625rem 0;
+            font-weight: 400;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            color: rgba(0,0,0,.65);
+          }
+
+          .value {
+            flex: 1;
+            padding: .5625rem .75rem;
+            background: #fff;
+            color: rgba(0,0,0,.65);
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+          }
+        }
+      }
+    }
+
     ::ng-deep {
       app-discount-badge {
         margin-bottom: .25rem;
