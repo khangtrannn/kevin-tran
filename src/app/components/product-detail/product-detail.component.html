@@ -25,8 +25,11 @@
     </div>
 
     <div class="product-detail__review flex items-center h-12">
-      <div class="flex">
+      <div class="flex items-center">
         <app-rating *ngFor="let i of [].constructor(5)"></app-rating>
+        <div>
+          <span class="rating-number">5.0</span>
+        </div>
       </div>
       <div class="sold-count">
         <span>61 Đã bán</span>
