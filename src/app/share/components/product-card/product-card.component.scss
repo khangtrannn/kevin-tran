@@ -61,43 +61,6 @@
       }
     }
 
-    .discount-badge {
-      position: absolute;
-      right: 0;
-      top: 0;
-
-      &__wrapper {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        font-weight: 400;
-        line-height: 0.8125rem;
-        color: #ee4d2d;
-        text-transform: uppercase;
-        font-size: 0.75rem;
-        width: 36px;
-        height: 32px;
-        padding: 4px 2px 3px;
-        background-color: rgba(255, 212, 36, 0.9);
-
-        &::after {
-          content: "";
-          width: 0;
-          height: 0;
-          left: 0;
-          bottom: -4px;
-          position: absolute;
-          border-color: transparent rgba(255,212,36,.9);
-          border-style: solid;
-          border-width: 0 18px 4px;
-        }
-
-        .title {
-          color: #fff;
-        }
-      }
-    }
-
     .customized-overlay-img {
       position: absolute;
       top: 0;
@@ -184,5 +147,13 @@
 :host ::ng-deep {
   app-rating {
     font-size: .625rem;
+  }
+
+  app-discount-badge {
+    .discount-badge {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
   }
 }

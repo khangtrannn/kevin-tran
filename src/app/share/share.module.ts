@@ -7,6 +7,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BadgeComponent } from './components/badge/badge.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { CategoryComponent } from './components/category/category.component';
+import { DiscountBadgeComponent } from './components/discount-badge/discount-badge.component';
 import { CartListComponent } from './components/header/components/cart-list/cart-list.component';
 import { NotifyComponent } from './components/header/components/notify/notify.component';
 import { QrCodeComponent } from './components/header/components/qr-code/qr-code.component';
@@ -28,6 +29,7 @@ const declarations = [
   SearchComponent,
   CartListComponent,
   HeaderComponent,
+  DiscountBadgeComponent,
 ];
 
 @NgModule({

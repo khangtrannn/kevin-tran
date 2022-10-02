@@ -7,12 +7,9 @@
           <span class="favorite-badge__title">Yêu thích</span>
         </div>
       </div>
-      <div *ngIf="product.discount && product.discount !== 0" class="discount-badge">
-        <div class="discount-badge__wrapper">
-          <span class="percent">{{ product.discount }}%</span>
-          <span class="title">GIẢM</span>
-        </div>
-      </div>
+
+      <app-discount-badge *ngIf="product.discount && product.discount !== 0" [percent]="product.discount"></app-discount-badge>
+
       <div *ngIf="product.promotionOverlay" class="customized-overlay-img">
         <div class="customized-overlay-img__wrapper">
           <img class="w-full" [src]="product.promotionOverlay" />
