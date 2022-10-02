@@ -1,5 +1,4 @@
-import { Component, Inject } from '@angular/core';
-import { IS_MOBILE } from './models/constants';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +7,4 @@ import { IS_MOBILE } from './models/constants';
 })
 export class AppComponent {
   title = 'kt-shopee';
-
-  constructor(@Inject(IS_MOBILE) public isMobile: boolean) {}
 }
