@@ -40,7 +40,7 @@ export class BannerComponent {
         1366: {
           stagePadding: 200,
           items: 1,
-          margin: 15
+          margin: 15,
         },
         1600: {
           stagePadding: 300,
@@ -54,22 +54,17 @@ export class BannerComponent {
     {
       id: '1',
       title: 'Banner 1',
-      url: 'https://cf.shopee.vn/file/01e6b2fcc0af68dce9edc58db89d4822_xxhdpi',
+      url: '/assets/images/banner/banner-2.jpeg',
     },
     {
       id: '2',
       title: 'Banner 2',
-      url: 'https://cf.shopee.vn/file/f75eafd76c55d6c2976d10f1d5861148_xxhdpi',
+      url: '/assets/images/banner/banner-1.jpg',
     },
     {
       id: '3',
       title: 'Banner 3',
-      url: 'https://cf.shopee.vn/file/3285d18ef74caab1fd6c9f757b14e27b_xxhdpi',
-    },
-    {
-      id: '4',
-      title: 'Banner 4',
-      url: 'https://cf.shopee.vn/file/008207b4d1486f20f6f9008f0194819b_xxhdpi',
+      url: '/assets/images/banner/banner-3.jpeg',
     },
   ];
 }

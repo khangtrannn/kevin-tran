@@ -11,7 +11,6 @@ import { ProductOrderComponent } from '../components/product-detail/components/p
 import { ProductBottomPanelComponent } from './../components/product-detail/components/product-bottom-panel/product-bottom-panel.component';
 import { BadgeComponent } from './components/badge/badge.component';
 import { BannerComponent } from './components/banner/banner.component';
-import { ButtonToggleGroupComponent } from './components/button-toggle-group/button-toggle-group.component';
 import { CategoryComponent } from './components/category/category.component';
 import { DiscountBadgeComponent } from './components/discount-badge/discount-badge.component';
 import { CartListComponent } from './components/header/components/cart-list/cart-list.component';
@@ -33,7 +32,6 @@ const declarations = [
   DiscountBadgeComponent,
   ProductBottomPanelComponent,
   ProductOrderComponent,
-  ButtonToggleGroupComponent,
 ];
 
 @NgModule({

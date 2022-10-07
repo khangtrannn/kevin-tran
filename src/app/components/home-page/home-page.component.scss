@@ -1,10 +1,6 @@
 @import 'responsive';
 
 .wrapper {
-  @include tabletAndDesktop() {
-    padding-top: var(--header-height);
-  }
-
   .content {
     margin-right: auto;
     margin-left: auto;
