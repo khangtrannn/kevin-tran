@@ -49,17 +49,6 @@ $kt-shopee-theme: mat.define-light-theme((
 @import 'animation';
 @import 'layout';
 
-:root {
-  --primary-color: #ee4d2d;
-  --white-color: #fff;
-  --black-color: #000;
-  --text-color: #333;
-  --border-color: #dbdbdb;
-  --header-height: 120px;
-  --navbar-height: 34px;
-  --search-height: calc(var(--header-height) - var(--navbar-height))
-}
-
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
