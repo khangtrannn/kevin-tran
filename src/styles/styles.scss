@@ -49,6 +49,10 @@ $kt-shopee-theme: mat.define-light-theme((
 @import 'animation';
 @import 'layout';
 
+:root {
+  --header-height: 3rem;
+}
+
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;

@@ -9,6 +9,7 @@
   background-color: hsla(0,0%,100%,.95);
 
   @include tabletAndDesktop() {
+    position: static;
     top: var(--header-height);
   }
 
