@@ -1,4 +1,5 @@
-import { Component, Input } from '@angular/core';
+import { Component, Inject, Input } from '@angular/core';
+import { IS_MOBILE } from 'src/app/models/constants';
 import { Product } from 'src/app/models/product';
 
 @Component({
@@ -8,6 +9,8 @@ import { Product } from 'src/app/models/product';
 })
 export class ProductDetailComponent {
   @Input() product!: Product;
+
+  constructor(@Inject(IS_MOBILE) public isMobile: boolean) {}
 
   productAttributes: any[] = [
     { attribute: 'Kho', value: '39' },
