@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { ProductOrderComponent } from '../components/product-detail/components/product-order/product-order.component';
+import { PromotionComponent } from '../components/product-detail/components/promotion/promotion.component';
 import { ProductBottomPanelComponent } from './../components/product-detail/components/product-bottom-panel/product-bottom-panel.component';
 import { BadgeComponent } from './components/badge/badge.component';
 import { BannerComponent } from './components/banner/banner.component';
@@ -31,6 +32,7 @@ const declarations = [
   DiscountBadgeComponent,
   ProductBottomPanelComponent,
   ProductOrderComponent,
+  PromotionComponent,
 ];
 
 @NgModule({
