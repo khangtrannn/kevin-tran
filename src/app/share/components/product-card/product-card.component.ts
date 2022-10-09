@@ -12,11 +12,6 @@ export class ProductCardComponent {
 
   constructor(private router: Router) {}
 
-  // TODO: move this function to product class
-  getDiscountPrice(): number {
-    return this.product.price * this.product.discount / 100;
-  }
-
   navigateToProduct(): void {
     this.router.navigate([`/product/${this.product.id}`]);
   }

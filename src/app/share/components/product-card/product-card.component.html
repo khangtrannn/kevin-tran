@@ -24,7 +24,7 @@
       <div class="badge--outline">Mua Kèm Deal Sốc</div>
     </div>
     <div class="product-card__content-price">
-      <div *ngIf="product.discount" class="discount-price">₫{{ getDiscountPrice() | number:'1.0-0' }}</div>
+      <div *ngIf="product.discount" class="discount-price">₫{{ product.getDiscountPrice() | number:'1.0-0' }}</div>
       <div class="actual-price">
         <span>₫</span>
         <span>{{ product.price | number:'1.0-0' }}</span>

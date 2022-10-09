@@ -12,7 +12,7 @@ export class Product {
     outlineBadge?: string | undefined,
   }
 
-  // getDiscountPrice(): number {
-  //   return this.discount ? this.price * this.discount / 100 : this.price;
-  // }
+  getDiscountPrice(): number {
+    return this.discount ? this.price * this.discount / 100 : this.price;
+  }
 }
