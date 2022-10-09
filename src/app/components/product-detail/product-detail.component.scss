@@ -1,5 +1,7 @@
 :host {
   .product-detail {
+    padding-bottom: 1rem;
+
     &__carousel {
       width: 100%;
       padding-top: 100%;
@@ -24,7 +26,7 @@
 
     &__overview {
       background: #fff;
-      padding: .75rem;
+      padding: 0.75rem;
     }
 
     &__title {
@@ -40,7 +42,7 @@
     }
 
     &__price {
-      margin-top: .625rem;
+      margin-top: 0.625rem;
       display: flex;
       flex-direction: row;
       gap: 40px;
@@ -54,14 +56,14 @@
       .discount-price {
         font-size: 0.875rem;
         text-decoration: line-through;
-        color: rgba(0,0,0,.26);
+        color: rgba(0, 0, 0, 0.26);
         font-weight: 200;
-        margin-top: .125rem;
+        margin-top: 0.125rem;
       }
 
       .badge--outline {
         height: fit-content;
-        font-size: .5625rem;
+        font-size: 0.5625rem;
       }
     }
 
@@ -76,10 +78,10 @@
           display: block;
           position: absolute;
           top: 50%;
-          left: .75rem;
+          left: 0.75rem;
           -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-          background: rgba(0,0,0,.12);
+          background: rgba(0, 0, 0, 0.12);
         }
 
         span {
@@ -91,43 +93,45 @@
 
       .rating-number {
         color: #ee4d2d;
-        margin-left: .4375rem;
+        margin-left: 0.4375rem;
         font-size: 0.875rem;
       }
     }
 
     &__description {
-      margin-top: .75rem;
+      margin-top: 0.75rem;
       background-color: #fff;
 
       .title {
         font-weight: 500;
-        font-size: .875rem;
+        font-size: 0.875rem;
         padding: 1rem;
         margin: 0;
       }
 
       .product-attributes-table {
         font-weight: 300;
-        font-size: .875rem;
-        margin: 0 .75rem .625rem;
+        font-size: 0.875rem;
+        margin: 0 0.75rem 0.625rem;
+        border: solid rgba(0, 0, 0, 0.09) !important;
+        border-width: 0 0 1px !important;
 
         .product-attributes-sub-table {
           .attribute {
             width: 6.875rem;
-            padding: .625rem 0;
+            padding: 0.625rem 0;
             font-weight: 400;
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
-            color: rgba(0,0,0,.65);
+            color: rgba(0, 0, 0, 0.65);
           }
 
           .value {
             flex: 1;
-            padding: .5625rem .75rem;
+            padding: 0.5625rem 0.75rem;
             background: #fff;
-            color: rgba(0,0,0,.65);
+            color: rgba(0, 0, 0, 0.65);
             display: flex;
             align-items: center;
             flex-wrap: wrap;
@@ -138,14 +142,14 @@
 
     ::ng-deep {
       app-discount-badge {
-        margin-bottom: .25rem;
+        margin-bottom: 0.25rem;
       }
     }
   }
 
   .badge {
     display: inline-flex;
-    margin-right: .5rem;
+    margin-right: 0.5rem;
     vertical-align: middle;
     font-weight: 400;
   }

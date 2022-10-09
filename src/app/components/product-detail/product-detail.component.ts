@@ -38,28 +38,13 @@ export class ProductDetailComponent implements OnInit {
   }
 
   productAttributes: any[] = [
-    { attribute: 'Kho', value: '39' },
-    { attribute: 'Thương hiệu', value: 'Keychron' },
-    { attribute: 'Kiểu kết nối', value: 'Không dây' },
-    { attribute: 'Bộ sản phẩm', value: 'Có' },
-    { attribute: 'Loại bàn phím', value: 'Bàn phím cơ' },
+    { attribute: 'Kho', value: '999' },
+    { attribute: 'Thương hiệu', value: 'Kevin Tran & Collab' },
+    { attribute: 'Phong cách', value: 'Retro, Đường phố, Thể thao, Hàn Quốc' },
+    { attribute: 'Xuất xứ', value: 'Việt Nam' },
+    { attribute: 'Chất liệu', value: 'Cotton' },
     { attribute: 'Hạn bảo hành', value: '12 tháng' },
     { attribute: 'Loại bảo hành', value: 'Bảo hành nhà sản xuất' },
-    { attribute: 'Game chuyên dụng', value: 'Có' },
-    { attribute: 'Model bàn phím & chuột', value: 'Keychron K8 Pro' },
-    { attribute: 'Bàn phím tương thích', value: 'macOS/Windows/Linux' },
-    {
-      attribute: 'Kích thước (dài x rộng x cao)',
-      value: '359 x 127 x 42mm',
-    },
-    {
-      attribute: 'Tên tổ chức chịu trách nhiệm sản xuất',
-      value: 'Công Ty Cổ Phần SiliconZ',
-    },
-    {
-      attribute: 'Địa chỉ tổ chức chịu trách nhiệm sản xuất',
-      value: '72 Ngô Bệ, P.13, Q.Tân Bình, TP.HCM',
-    },
-    { attribute: 'Gửi từ', value: 'Hà Nội' },
+    { attribute: 'Dán kiểu áo', value: 'Cổ điển' },
   ];
 }
