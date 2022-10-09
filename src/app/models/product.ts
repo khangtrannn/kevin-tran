@@ -1,4 +1,5 @@
 export class Product {
+  id!: string;
   title!: string;
   discount!: number;
   isFavorite!: boolean;
@@ -7,8 +8,8 @@ export class Product {
   image!: string;
   promotionOverlay: string | undefined;
   promotionBadge!: {
-    fullBadge: string | undefined,
-    outlineBadge: string | undefined,
+    fullBadge?: string | undefined,
+    outlineBadge?: string | undefined,
   }
 
   // getDiscountPrice(): number {

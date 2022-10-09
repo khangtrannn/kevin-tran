@@ -19,6 +19,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: '/hiepg85IXPZvLCj',
     },
     {
       title:
@@ -31,6 +32,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'equxC+UHd+iv5olS',
     },
     {
       title:
@@ -43,6 +45,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: 'Giảm ₫40k', outlineBadge: undefined },
+      id: 'FE2+QMSNLPr7O+Wd',
     },
     {
       title:
@@ -55,6 +58,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'jFf3rW0yywWULVRL',
     },
     {
       title:
@@ -67,6 +71,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: '9t4f1THzwRVSWxJC',
     },
     {
       title:
@@ -79,6 +84,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'JG7pLolJnfCxE7q/',
     },
     {
       title:
@@ -91,6 +97,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'pHLiVLBi3XndppjB',
     },
     {
       title:
@@ -103,6 +110,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: 'Giảm ₫10k', outlineBadge: undefined },
+      id: 'ZBQqJyQfnOC/GoGf',
     },
     {
       title:
@@ -115,6 +123,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'e1qT+dEZNlTqzwDH',
     },
     {
       title:
@@ -127,6 +136,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'xoOAFBCDRvaujW0d',
     },
     {
       title:
@@ -139,6 +149,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: 'Giảm ₫40k', outlineBadge: undefined },
+      id: 'GgAp30uTOjIim1qG',
     },
     {
       title:
@@ -151,6 +162,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: 'Giảm ₫40k', outlineBadge: undefined },
+      id: 'n+942hksXaie9tcl',
     },
     {
       title:
@@ -163,6 +175,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'PqBSHAXKjaTrYw7z',
     },
     {
       title:
@@ -175,6 +188,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'NlobRQt/D4VRe9ZE',
     },
     {
       title:
@@ -187,6 +201,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'sSnH/VdWeH+ShqrX',
     },
     {
       title:
@@ -199,6 +214,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'o5deQk0KvoviD2Rh',
     },
     {
       title:
@@ -211,6 +227,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'dc3GFFzHkaZH8TrP',
     },
     {
       title:
@@ -223,6 +240,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'Sy47zCM0hLLHlNdj',
     },
     {
       title:
@@ -235,6 +253,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'f5ZcnyWv8D58r01H',
     },
     {
       title:
@@ -247,6 +266,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'MvSVRbjpd/S0XOZZ',
     },
     {
       title:
@@ -259,6 +279,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'TSZ/L5tIw7BTmquZ',
     },
     {
       title:
@@ -271,6 +292,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'U/T2+lsD/zDLGe4l',
     },
     {
       title:
@@ -283,6 +305,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'uD6Jy1KHwBId7kn4',
     },
     {
       title:
@@ -295,6 +318,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'foAS5CtHsVS3Dxhd',
     },
     {
       title:
@@ -307,6 +331,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
       promotionBadge: { fullBadge: 'Giảm ₫40k', outlineBadge: undefined },
+      id: 'FL23DKN6HNdzd9en',
     },
     {
       title:
@@ -319,6 +344,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: 'Giảm ₫40k', outlineBadge: undefined },
+      id: 'ommc7t33VBLItmpg',
     },
     {
       title:
@@ -331,6 +357,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'U3uhHHuO0UNZix1r',
     },
     {
       title:
@@ -343,6 +370,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'TU5bgBKf/s/3cUWD',
     },
     {
       title:
@@ -355,6 +383,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
       promotionBadge: { fullBadge: 'Giảm ₫40k', outlineBadge: undefined },
+      id: '3+QsvVDjc0TByK7R',
     },
     {
       title:
@@ -367,6 +396,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
       promotionBadge: { fullBadge: 'Giảm ₫40k', outlineBadge: undefined },
+      id: 'HiZVDpv2XKxpZdqE',
     },
     {
       title:
@@ -379,6 +409,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
       promotionBadge: { fullBadge: 'Giảm ₫40k', outlineBadge: undefined },
+      id: 'izHYuo6bjZwOTlCZ',
     },
     {
       title:
@@ -391,6 +422,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
       promotionBadge: { fullBadge: 'Giảm ₫40k', outlineBadge: undefined },
+      id: 'yy4bSSMR6nrulIrV',
     },
     {
       title:
@@ -403,6 +435,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: '0GZfgwQESBgznRsI',
     },
     {
       title:
@@ -415,6 +448,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'LyEheg0VLVssnNJJ',
     },
     {
       title:
@@ -427,6 +461,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
       promotionBadge: { fullBadge: 'Giảm ₫40k', outlineBadge: undefined },
+      id: '7nY2Uw8Ir6EPSpUa',
     },
     {
       title:
@@ -439,6 +474,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: '991Bu7hUPUfL0F36',
     },
     {
       title:
@@ -451,6 +487,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'lI4QQck1UgqYB395',
     },
     {
       title:
@@ -463,6 +500,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
       promotionBadge: { fullBadge: 'Giảm ₫40k', outlineBadge: undefined },
+      id: '5cXMfJ8pKdt47tQk',
     },
     {
       title:
@@ -475,6 +513,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: '6cBjvIksdFjUjOFP',
     },
     {
       title:
@@ -487,6 +526,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
       promotionBadge: { fullBadge: undefined, outlineBadge: undefined },
+      id: 'E6FqrcmX5MPg5rev',
     },
     {
       title:
@@ -499,6 +539,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: 'P9ExRQR1nkSBjh3J',
     },
     {
       title:
@@ -511,6 +552,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
       promotionBadge: { fullBadge: 'Giảm ₫40k', outlineBadge: undefined },
+      id: 'hH/E3G7WXS+DHvHa',
     },
     {
       title:
@@ -523,6 +565,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
       promotionBadge: { fullBadge: 'Giảm ₫40k', outlineBadge: undefined },
+      id: 'y86j+IRhJslKMRSx',
     },
   ];
 
@@ -538,6 +581,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/651abc9a9f61b4c68c2e1c7c49415083',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: '2LzyHb+h2UDf9U6X',
     },
     {
       title:
@@ -550,6 +594,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/651abc9a9f61b4c68c2e1c7c49415083',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: 'e772nxag7NMptbaz',
     },
     {
       title:
@@ -562,6 +607,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/651abc9a9f61b4c68c2e1c7c49415083',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: 'yJ0nfZpLozNRXfpM',
     },
     {
       title:
@@ -574,6 +620,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/420b9e4b274b84e51e1bb6ceca62eb3c',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: '6XIPPYJjlVf1UYDU',
     },
     {
       title:
@@ -586,6 +633,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/420b9e4b274b84e51e1bb6ceca62eb3c',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: 'OrVaHKZCH/PDhjTf',
     },
     {
       title: 'Áo POLO Phối Sọc Ceffylo Chất Liệu Cotton Có Độ Co Giãn Nhẹ',
@@ -597,6 +645,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/420b9e4b274b84e51e1bb6ceca62eb3c',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: 'x1S1RmboALCGBzy1',
     },
     {
       title: 'Áo Polo Nam Phối Nẹp CF Chất Liệu Cotton Co Giãn Nhẹ',
@@ -608,6 +657,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/420b9e4b274b84e51e1bb6ceca62eb3c',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: 'L/TA7YfI+XYKscj9',
     },
     {
       title:
@@ -620,6 +670,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/420b9e4b274b84e51e1bb6ceca62eb3c',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: 'N29+HcjI8n5wOpA+',
     },
     {
       title: 'Quần tây nam công sở cao cấp form dáng slimfit CEFFYLO',
@@ -631,6 +682,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/420b9e4b274b84e51e1bb6ceca62eb3c',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: '0hf1wA/91w69v86X',
     },
     {
       title: 'Áo POLO Nam Ngực Phối Sọc CF, Chất Liệu Cotton Thoáng Mát',
@@ -642,6 +694,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/420b9e4b274b84e51e1bb6ceca62eb3c',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: 'i1eWm2iD0ikYwIRI',
     },
     {
       title: 'Áo Polo Trơn Phối Bo CEFFYLO Vải Cotton 100% 7 Màu Trẻ Trung',
@@ -653,6 +706,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/420b9e4b274b84e51e1bb6ceca62eb3c',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: 'xb+n+H5oUJZ4SAp4',
     },
     {
       title:
@@ -665,6 +719,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/420b9e4b274b84e51e1bb6ceca62eb3c',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: 'pJ678q7NfRCtZENa',
     },
     {
       title:
@@ -677,6 +732,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/420b9e4b274b84e51e1bb6ceca62eb3c',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: 'hxjmuJXRVJ2Daqiu',
     },
     {
       title:
@@ -689,6 +745,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/420b9e4b274b84e51e1bb6ceca62eb3c',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: 'Z0sBslE8vGmMV6eR',
     },
     {
       title: 'Quần Tây Nam Cạp Trượt Kiểu Dáng Basic, Đơn Giản Dễ Phối ĐỒ',
@@ -700,6 +757,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/651abc9a9f61b4c68c2e1c7c49415083',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: 'taIvRLba5vybybEr',
     },
     {
       title:
@@ -712,6 +770,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/420b9e4b274b84e51e1bb6ceca62eb3c',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: '0O0Ry6Bot2Mf9Vt9',
     },
     {
       title:
@@ -724,6 +783,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/420b9e4b274b84e51e1bb6ceca62eb3c',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: 'lrlMkAFmsDt+jUgX',
     },
     {
       title:
@@ -736,6 +796,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/420b9e4b274b84e51e1bb6ceca62eb3c',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: 'FF0ZGMdbtFsvRoyP',
     },
     {
       title:
@@ -748,6 +809,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/420b9e4b274b84e51e1bb6ceca62eb3c',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: 'dXJxPmI1djZL9R0t',
     },
     {
       title:
@@ -760,6 +822,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/420b9e4b274b84e51e1bb6ceca62eb3c',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: 'CKfgT/5pqXv1pkT1',
     },
     {
       title:
@@ -772,6 +835,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/420b9e4b274b84e51e1bb6ceca62eb3c',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: 'Ar5WrW93YiudjtsH',
     },
     {
       title:
@@ -784,6 +848,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/420b9e4b274b84e51e1bb6ceca62eb3c',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: '9oTRMAuMjLR+2SeD',
     },
     {
       title:
@@ -796,6 +861,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/420b9e4b274b84e51e1bb6ceca62eb3c',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: 'ffzqJoHbudginHo5',
     },
     {
       title:
@@ -808,6 +874,7 @@ export class ProductListComponent {
       promotionOverlay:
         'https://cf.shopee.vn/file/420b9e4b274b84e51e1bb6ceca62eb3c',
       promotionBadge: { fullBadge: 'Giảm ₫20k', outlineBadge: undefined },
+      id: 'xvv69LOl7vIN+FO4',
     },
   ];
 
@@ -822,7 +889,8 @@ export class ProductListComponent {
       soldOutNumbers: '2,3k',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '43% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '43% giảm' },
+      id: 'MrnRofaph1eL2Arz',
     },
     {
       title:
@@ -834,7 +902,8 @@ export class ProductListComponent {
       soldOutNumbers: '3,2k',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '31% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '31% giảm' },
+      id: 'lDJfK5CSyTeM4hmp',
     },
     {
       title:
@@ -846,7 +915,8 @@ export class ProductListComponent {
       soldOutNumbers: '795',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '23% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '23% giảm' },
+      id: 'BlgIvwHs83s5E3Om',
     },
     {
       title:
@@ -858,7 +928,8 @@ export class ProductListComponent {
       soldOutNumbers: '3',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'yRES+GodIe1GgZUK',
     },
     {
       title:
@@ -870,7 +941,8 @@ export class ProductListComponent {
       soldOutNumbers: '12',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'EBN5LnDRGT+iVd8w',
     },
     {
       title:
@@ -882,7 +954,8 @@ export class ProductListComponent {
       soldOutNumbers: '291',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '26% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '26% giảm' },
+      id: 'D53sVeSYW0/sYHPt',
     },
     {
       title:
@@ -894,7 +967,8 @@ export class ProductListComponent {
       soldOutNumbers: '35',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'kNP3B8UDzU+Q5HSG',
     },
     {
       title:
@@ -906,7 +980,8 @@ export class ProductListComponent {
       soldOutNumbers: '15',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'SlUa1nP8cHU6HKNo',
     },
     {
       title:
@@ -918,7 +993,8 @@ export class ProductListComponent {
       soldOutNumbers: '99',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '20% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '20% giảm' },
+      id: '3hD5u2CHViR31CJF',
     },
     {
       title:
@@ -930,7 +1006,8 @@ export class ProductListComponent {
       soldOutNumbers: '160',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '20% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '20% giảm' },
+      id: 'cwE44emIuFZu4U5O',
     },
     {
       title:
@@ -942,7 +1019,8 @@ export class ProductListComponent {
       soldOutNumbers: '56',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '22% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '22% giảm' },
+      id: 'kxg+Les9h6bnByPN',
     },
     {
       title:
@@ -954,7 +1032,8 @@ export class ProductListComponent {
       soldOutNumbers: '1',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'X/MpHIiOvY6YFFjJ',
     },
     {
       title:
@@ -966,7 +1045,8 @@ export class ProductListComponent {
       soldOutNumbers: '2,4k',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '48% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '48% giảm' },
+      id: 'QNrEFFvx+gULftsx',
     },
     {
       title:
@@ -978,7 +1058,8 @@ export class ProductListComponent {
       soldOutNumbers: '1',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'IijRBH6Brb6aEkhC',
     },
     {
       title:
@@ -990,7 +1071,8 @@ export class ProductListComponent {
       soldOutNumbers: '29',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'mFlXgW0718bC1TjA',
     },
     {
       title:
@@ -1002,7 +1084,8 @@ export class ProductListComponent {
       soldOutNumbers: '216',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'cUfO7d9TbPTbL/tz',
     },
     {
       title:
@@ -1014,7 +1097,8 @@ export class ProductListComponent {
       soldOutNumbers: '',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'W4olzvQwGIYnvxom',
     },
     {
       title: 'Áo Polo phối màu đen trắng thương hiệu 360 Boutique - POMTK317',
@@ -1025,7 +1109,8 @@ export class ProductListComponent {
       soldOutNumbers: '33',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'MBkJvRvHA26UTWre',
     },
     {
       title:
@@ -1037,7 +1122,8 @@ export class ProductListComponent {
       soldOutNumbers: '163',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '10% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '10% giảm' },
+      id: 'DpzhKDUIBaqj7nr5',
     },
     {
       title:
@@ -1049,7 +1135,8 @@ export class ProductListComponent {
       soldOutNumbers: '18',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'cmUWPzdz02SdKUjt',
     },
     {
       title:
@@ -1061,7 +1148,8 @@ export class ProductListComponent {
       soldOutNumbers: '1,6k',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '24% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '24% giảm' },
+      id: 'WD/RPRLHAr7O+ANd',
     },
     {
       title:
@@ -1073,7 +1161,8 @@ export class ProductListComponent {
       soldOutNumbers: '1,7k',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '37% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '37% giảm' },
+      id: 'Sy/EsAi5Zcpk84L8',
     },
     {
       title:
@@ -1085,7 +1174,8 @@ export class ProductListComponent {
       soldOutNumbers: '3',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: '3MvbqmGtzBO6RpJ6',
     },
     {
       title:
@@ -1097,7 +1187,8 @@ export class ProductListComponent {
       soldOutNumbers: '9',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'zCen54KUFQlY7M/i',
     },
     {
       title:
@@ -1109,7 +1200,8 @@ export class ProductListComponent {
       soldOutNumbers: '',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'I4/onCgLYnnnt6H8',
     },
     {
       title:
@@ -1121,7 +1213,8 @@ export class ProductListComponent {
       soldOutNumbers: '',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'QcQ90SVmx8wxGH+g',
     },
     {
       title:
@@ -1133,7 +1226,8 @@ export class ProductListComponent {
       soldOutNumbers: '1,5k',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '18% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '18% giảm' },
+      id: 'Cm86Z8jFu3xZPX0l',
     },
     {
       title:
@@ -1145,7 +1239,8 @@ export class ProductListComponent {
       soldOutNumbers: '1,2k',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '38% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '38% giảm' },
+      id: 'XLUjYwx5ZrO4EI80',
     },
     {
       title:
@@ -1157,7 +1252,8 @@ export class ProductListComponent {
       soldOutNumbers: '191',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '50% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '50% giảm' },
+      id: 'PYaS0Z+JbzafMr+0',
     },
     {
       title:
@@ -1169,7 +1265,8 @@ export class ProductListComponent {
       soldOutNumbers: '1',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'Dni1/31iNyKYNaOh',
     },
     {
       title:
@@ -1181,7 +1278,8 @@ export class ProductListComponent {
       soldOutNumbers: '13',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: '7Lkxk+rZ0jkgZY6Z',
     },
     {
       title:
@@ -1193,7 +1291,8 @@ export class ProductListComponent {
       soldOutNumbers: '16',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'oUOxJFbiSrnMAaBh',
     },
     {
       title:
@@ -1205,7 +1304,8 @@ export class ProductListComponent {
       soldOutNumbers: '636',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '36% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '36% giảm' },
+      id: '/G49VC6X/milh9ge',
     },
     {
       title:
@@ -1217,7 +1317,8 @@ export class ProductListComponent {
       soldOutNumbers: '76',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '10% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '10% giảm' },
+      id: 'YZoNmPwRd3Sivb26',
     },
     {
       title:
@@ -1229,7 +1330,8 @@ export class ProductListComponent {
       soldOutNumbers: '366',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'fYl2SAhYY1BBH2aX',
     },
     {
       title:
@@ -1241,7 +1343,8 @@ export class ProductListComponent {
       soldOutNumbers: '227',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '33% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '33% giảm' },
+      id: 'fWBKzNAY4Z0eJjgY',
     },
     {
       title:
@@ -1253,7 +1356,8 @@ export class ProductListComponent {
       soldOutNumbers: '2',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'kruKVAnqS4JuM/vZ',
     },
     {
       title:
@@ -1265,7 +1369,8 @@ export class ProductListComponent {
       soldOutNumbers: '36',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '10% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '10% giảm' },
+      id: 'wryZy3N6jPsSOht1',
     },
     {
       title:
@@ -1277,7 +1382,8 @@ export class ProductListComponent {
       soldOutNumbers: '582',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '12% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '12% giảm' },
+      id: 'dBXPJk/KQmUPgYBa',
     },
     {
       title:
@@ -1289,7 +1395,8 @@ export class ProductListComponent {
       soldOutNumbers: '10',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'Z3KLLcTJjeiVOsFn',
     },
     {
       title:
@@ -1301,7 +1408,8 @@ export class ProductListComponent {
       soldOutNumbers: '13',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '8% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '8% giảm' },
+      id: 'k/nV3V/vMyRzcc7J',
     },
     {
       title:
@@ -1313,7 +1421,8 @@ export class ProductListComponent {
       soldOutNumbers: '51',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: '1ovlf3E4CVVwqJQ7',
     },
     {
       title:
@@ -1325,7 +1434,8 @@ export class ProductListComponent {
       soldOutNumbers: '5',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'ILCWVEAEfvyEAmCF',
     },
     {
       title:
@@ -1337,7 +1447,8 @@ export class ProductListComponent {
       soldOutNumbers: '16',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'CuxmJ6UiO9sY2B2h',
     },
     {
       title:
@@ -1349,7 +1460,8 @@ export class ProductListComponent {
       soldOutNumbers: '9',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'eJlCbZ7HeshMOaV+',
     },
     {
       title:
@@ -1361,7 +1473,8 @@ export class ProductListComponent {
       soldOutNumbers: '830',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'SJe8oOVedQd6Ymdv',
     },
     {
       title:
@@ -1373,7 +1486,8 @@ export class ProductListComponent {
       soldOutNumbers: '1',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'yqcCrUSRYFK8uhRE',
     },
     {
       title:
@@ -1385,7 +1499,8 @@ export class ProductListComponent {
       soldOutNumbers: '2,3k',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '43% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '43% giảm' },
+      id: '5m+grm8p7p1Gn6pa',
     },
     {
       title:
@@ -1397,7 +1512,8 @@ export class ProductListComponent {
       soldOutNumbers: '3,2k',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '31% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '31% giảm' },
+      id: 'wGQH8No7DbpEFbXd',
     },
     {
       title:
@@ -1409,7 +1525,8 @@ export class ProductListComponent {
       soldOutNumbers: '795',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '23% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '23% giảm' },
+      id: 'ttzdRBx08x+686Nb',
     },
     {
       title:
@@ -1421,7 +1538,8 @@ export class ProductListComponent {
       soldOutNumbers: '3',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'wWFx97tbfgPwzfzA',
     },
     {
       title:
@@ -1433,7 +1551,8 @@ export class ProductListComponent {
       soldOutNumbers: '12',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'eN3dwflyaDco2uKT',
     },
     {
       title:
@@ -1445,7 +1564,8 @@ export class ProductListComponent {
       soldOutNumbers: '291',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '26% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '26% giảm' },
+      id: 'e4KYU36M63F8pzlA',
     },
     {
       title:
@@ -1457,7 +1577,8 @@ export class ProductListComponent {
       soldOutNumbers: '35',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'x8Gjsafiyk8hK73v',
     },
     {
       title:
@@ -1469,7 +1590,8 @@ export class ProductListComponent {
       soldOutNumbers: '15',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: '7h6BGgLlPavjnYFp',
     },
     {
       title:
@@ -1481,7 +1603,8 @@ export class ProductListComponent {
       soldOutNumbers: '99',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '20% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '20% giảm' },
+      id: 'PPJeFGdCQ3sb4mNa',
     },
     {
       title:
@@ -1493,7 +1616,8 @@ export class ProductListComponent {
       soldOutNumbers: '160',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '20% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '20% giảm' },
+      id: 'k/3Dy4ado8UAOyMC',
     },
     {
       title:
@@ -1505,7 +1629,8 @@ export class ProductListComponent {
       soldOutNumbers: '56',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '22% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '22% giảm' },
+      id: 'v2wLqwYTTiwWsNku',
     },
     {
       title:
@@ -1517,7 +1642,8 @@ export class ProductListComponent {
       soldOutNumbers: '1',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'a3wwlrvQ785v4Lbq',
     },
     {
       title:
@@ -1529,7 +1655,8 @@ export class ProductListComponent {
       soldOutNumbers: '2,4k',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '48% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '48% giảm' },
+      id: 'UrqbD5nIWAwpxxEy',
     },
     {
       title:
@@ -1541,7 +1668,8 @@ export class ProductListComponent {
       soldOutNumbers: '1',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'jmimH5bFsyU6kZjZ',
     },
     {
       title:
@@ -1553,7 +1681,8 @@ export class ProductListComponent {
       soldOutNumbers: '29',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'jKPA04iko0SMwrMR',
     },
     {
       title:
@@ -1565,7 +1694,8 @@ export class ProductListComponent {
       soldOutNumbers: '216',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'I8q0MIiFN6Z661eb',
     },
     {
       title:
@@ -1577,7 +1707,8 @@ export class ProductListComponent {
       soldOutNumbers: '',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'fogGA/euZ525epmv',
     },
     {
       title: 'Áo Polo phối màu đen trắng thương hiệu 360 Boutique - POMTK317',
@@ -1588,7 +1719,8 @@ export class ProductListComponent {
       soldOutNumbers: '33',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'mEc0AuTQo4cvPYKu',
     },
     {
       title:
@@ -1600,7 +1732,8 @@ export class ProductListComponent {
       soldOutNumbers: '163',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '10% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '10% giảm' },
+      id: 'gQAl3rAgyKfWmo74',
     },
     {
       title:
@@ -1612,7 +1745,8 @@ export class ProductListComponent {
       soldOutNumbers: '18',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'WTk+0UNceU3cyK5x',
     },
     {
       title:
@@ -1624,7 +1758,8 @@ export class ProductListComponent {
       soldOutNumbers: '1,6k',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '24% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '24% giảm' },
+      id: 'DJvVP0L1h4r/Y9SE',
     },
     {
       title:
@@ -1636,7 +1771,8 @@ export class ProductListComponent {
       soldOutNumbers: '1,7k',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '37% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '37% giảm' },
+      id: 'sjonqcXsZvawwbt1',
     },
     {
       title:
@@ -1648,7 +1784,8 @@ export class ProductListComponent {
       soldOutNumbers: '3',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'lub2YJfvryAw4Dpx',
     },
     {
       title:
@@ -1660,7 +1797,8 @@ export class ProductListComponent {
       soldOutNumbers: '9',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'DiwRcXpdpjF1He4Q',
     },
     {
       title:
@@ -1672,7 +1810,8 @@ export class ProductListComponent {
       soldOutNumbers: '',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'hJ6rtJfaaGHp2D3S',
     },
     {
       title:
@@ -1684,7 +1823,8 @@ export class ProductListComponent {
       soldOutNumbers: '',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'CUNIyPC/5mYkXxyL',
     },
     {
       title:
@@ -1696,7 +1836,8 @@ export class ProductListComponent {
       soldOutNumbers: '1,5k',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '18% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '18% giảm' },
+      id: 'HbZppOVpZ/ZYM0WO',
     },
     {
       title:
@@ -1708,7 +1849,8 @@ export class ProductListComponent {
       soldOutNumbers: '1,2k',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '38% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '38% giảm' },
+      id: 'BkejkMtufRB93gdN',
     },
     {
       title:
@@ -1720,7 +1862,8 @@ export class ProductListComponent {
       soldOutNumbers: '191',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '50% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '50% giảm' },
+      id: 'RV6/1diA217DISaP',
     },
     {
       title:
@@ -1732,7 +1875,8 @@ export class ProductListComponent {
       soldOutNumbers: '1',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'KcmOoz4uQ/uMjPb+',
     },
     {
       title:
@@ -1744,7 +1888,8 @@ export class ProductListComponent {
       soldOutNumbers: '13',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: '7XRaQvQ0D7G0km32',
     },
     {
       title:
@@ -1756,7 +1901,8 @@ export class ProductListComponent {
       soldOutNumbers: '16',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'wdKABqZejCbyBsYp',
     },
     {
       title:
@@ -1768,7 +1914,8 @@ export class ProductListComponent {
       soldOutNumbers: '636',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '36% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '36% giảm' },
+      id: 'CcZ1Jnvh/x8r65vg',
     },
     {
       title:
@@ -1780,7 +1927,8 @@ export class ProductListComponent {
       soldOutNumbers: '76',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '10% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '10% giảm' },
+      id: '21TksBqMG/BmZY3g',
     },
     {
       title:
@@ -1792,7 +1940,8 @@ export class ProductListComponent {
       soldOutNumbers: '366',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'gBV/1v20msmbBOZM',
     },
     {
       title:
@@ -1804,7 +1953,8 @@ export class ProductListComponent {
       soldOutNumbers: '227',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '33% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '33% giảm' },
+      id: 'ONB8mfWHIqN+aqCq',
     },
     {
       title:
@@ -1816,7 +1966,8 @@ export class ProductListComponent {
       soldOutNumbers: '2',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'lHlEBrOB53GkbB6P',
     },
     {
       title:
@@ -1828,7 +1979,8 @@ export class ProductListComponent {
       soldOutNumbers: '36',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '10% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '10% giảm' },
+      id: 'W7fPK/de8DwjQ5+g',
     },
     {
       title:
@@ -1840,7 +1992,8 @@ export class ProductListComponent {
       soldOutNumbers: '582',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '12% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '12% giảm' },
+      id: 'rMTC6NEt8rVatgFj',
     },
     {
       title:
@@ -1852,7 +2005,8 @@ export class ProductListComponent {
       soldOutNumbers: '10',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'KFA+gi8tPXajK5mZ',
     },
     {
       title:
@@ -1864,7 +2018,8 @@ export class ProductListComponent {
       soldOutNumbers: '13',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '8% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '8% giảm' },
+      id: '6GHMlzE33w/C9E0X',
     },
     {
       title:
@@ -1876,7 +2031,8 @@ export class ProductListComponent {
       soldOutNumbers: '51',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'NimH6HmwS5X392Ic',
     },
     {
       title:
@@ -1888,7 +2044,8 @@ export class ProductListComponent {
       soldOutNumbers: '5',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: '/8uuyhFmlOh1KNRw',
     },
     {
       title:
@@ -1900,7 +2057,8 @@ export class ProductListComponent {
       soldOutNumbers: '16',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'rBiUSx/HU3jgnhvw',
     },
     {
       title:
@@ -1912,7 +2070,8 @@ export class ProductListComponent {
       soldOutNumbers: '9',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'fyGfnSvk2ZZqF0Dh',
     },
     {
       title:
@@ -1924,7 +2083,8 @@ export class ProductListComponent {
       soldOutNumbers: '830',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: '6hZ81vU5RuYl+ITu',
     },
     {
       title:
@@ -1936,7 +2096,8 @@ export class ProductListComponent {
       soldOutNumbers: '1',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'OttMMCesHkRo7/0+',
     },
     {
       title:
@@ -1948,7 +2109,8 @@ export class ProductListComponent {
       soldOutNumbers: '2,3k',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '43% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '43% giảm' },
+      id: 'q+2jZMBqUnFY/5Qk',
     },
     {
       title:
@@ -1960,7 +2122,8 @@ export class ProductListComponent {
       soldOutNumbers: '3,2k',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '31% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '31% giảm' },
+      id: 'g3nsOqk9lBV69mmj',
     },
     {
       title:
@@ -1972,7 +2135,8 @@ export class ProductListComponent {
       soldOutNumbers: '795',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '23% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '23% giảm' },
+      id: 'fCLFFGVWOLBnlqok',
     },
     {
       title:
@@ -1984,7 +2148,8 @@ export class ProductListComponent {
       soldOutNumbers: '3',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: '2sojmVlEPYJyb6A1',
     },
     {
       title:
@@ -1996,7 +2161,8 @@ export class ProductListComponent {
       soldOutNumbers: '12',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: '8WT2WEHN7epvVsdx',
     },
     {
       title:
@@ -2008,7 +2174,8 @@ export class ProductListComponent {
       soldOutNumbers: '291',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '26% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '26% giảm' },
+      id: '8UF7kBRY/fR7PHz8',
     },
     {
       title:
@@ -2020,7 +2187,8 @@ export class ProductListComponent {
       soldOutNumbers: '35',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'DGSPpmjvI5w3C28j',
     },
     {
       title:
@@ -2032,7 +2200,8 @@ export class ProductListComponent {
       soldOutNumbers: '15',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: '2ZbAsZU56Oz3SHgi',
     },
     {
       title:
@@ -2044,7 +2213,8 @@ export class ProductListComponent {
       soldOutNumbers: '99',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '20% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '20% giảm' },
+      id: '009ZHCe0zApWCO09',
     },
     {
       title:
@@ -2056,7 +2226,8 @@ export class ProductListComponent {
       soldOutNumbers: '160',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '20% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '20% giảm' },
+      id: 'nH6noJKXF1fkPOx+',
     },
     {
       title:
@@ -2068,7 +2239,8 @@ export class ProductListComponent {
       soldOutNumbers: '56',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '22% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '22% giảm' },
+      id: 'JAtQZ5L2W4EEiVDS',
     },
     {
       title:
@@ -2080,7 +2252,8 @@ export class ProductListComponent {
       soldOutNumbers: '1',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'SL+dHbi7Tf9wN7E3',
     },
     {
       title:
@@ -2092,7 +2265,8 @@ export class ProductListComponent {
       soldOutNumbers: '2,4k',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '48% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '48% giảm' },
+      id: 'BZKfx3Izm7NcKHgZ',
     },
     {
       title:
@@ -2104,7 +2278,8 @@ export class ProductListComponent {
       soldOutNumbers: '1',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: '80f4NoCZEWslIdIL',
     },
     {
       title:
@@ -2116,7 +2291,8 @@ export class ProductListComponent {
       soldOutNumbers: '29',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'ipjFD4Y9mQwLaylh',
     },
     {
       title:
@@ -2128,7 +2304,8 @@ export class ProductListComponent {
       soldOutNumbers: '216',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'xmDcxDq0lVaBUjyn',
     },
     {
       title:
@@ -2140,7 +2317,8 @@ export class ProductListComponent {
       soldOutNumbers: '',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'JY7w9lHLCMa71gJN',
     },
     {
       title: 'Áo Polo phối màu đen trắng thương hiệu 360 Boutique - POMTK317',
@@ -2151,7 +2329,8 @@ export class ProductListComponent {
       soldOutNumbers: '33',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'V+chIQbPW8BWMWvq',
     },
     {
       title:
@@ -2163,7 +2342,8 @@ export class ProductListComponent {
       soldOutNumbers: '163',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '10% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '10% giảm' },
+      id: 'Dv+m4r2i6H4+bY+H',
     },
     {
       title:
@@ -2175,7 +2355,8 @@ export class ProductListComponent {
       soldOutNumbers: '18',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'JBGsQWiFO37Ku1wb',
     },
     {
       title:
@@ -2187,7 +2368,8 @@ export class ProductListComponent {
       soldOutNumbers: '1,6k',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '24% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '24% giảm' },
+      id: 'oKW2Qk9Lk8X1G0xj',
     },
     {
       title:
@@ -2199,7 +2381,8 @@ export class ProductListComponent {
       soldOutNumbers: '1,7k',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '37% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '37% giảm' },
+      id: 'uKRx20+4Xf37mZ6y',
     },
     {
       title:
@@ -2211,7 +2394,8 @@ export class ProductListComponent {
       soldOutNumbers: '3',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'mO3/AOmu1FBiDhs/',
     },
     {
       title:
@@ -2223,7 +2407,8 @@ export class ProductListComponent {
       soldOutNumbers: '9',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'aOnxTE66tz90kAvt',
     },
     {
       title:
@@ -2235,7 +2420,8 @@ export class ProductListComponent {
       soldOutNumbers: '',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'gboaq8oIBwcwuVM9',
     },
     {
       title:
@@ -2247,7 +2433,8 @@ export class ProductListComponent {
       soldOutNumbers: '',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'HRPx5GvLDHYx7zPT',
     },
     {
       title:
@@ -2259,7 +2446,8 @@ export class ProductListComponent {
       soldOutNumbers: '1,5k',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '18% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '18% giảm' },
+      id: 'hsJERATo9jbD8kKU',
     },
     {
       title:
@@ -2271,7 +2459,8 @@ export class ProductListComponent {
       soldOutNumbers: '1,2k',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '38% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '38% giảm' },
+      id: '6lJ5cxnxJCwKjbHQ',
     },
     {
       title:
@@ -2283,7 +2472,8 @@ export class ProductListComponent {
       soldOutNumbers: '191',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '50% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '50% giảm' },
+      id: 'i5MC+kXm7n8pnGAw',
     },
     {
       title:
@@ -2295,7 +2485,8 @@ export class ProductListComponent {
       soldOutNumbers: '1',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'Py58bqrZ6C8qhDfA',
     },
     {
       title:
@@ -2307,7 +2498,8 @@ export class ProductListComponent {
       soldOutNumbers: '13',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'wIKKwQIjVXuHsh5S',
     },
     {
       title:
@@ -2319,7 +2511,8 @@ export class ProductListComponent {
       soldOutNumbers: '16',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'JgMF53TKLeWUBfp5',
     },
     {
       title:
@@ -2331,7 +2524,8 @@ export class ProductListComponent {
       soldOutNumbers: '636',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '36% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '36% giảm' },
+      id: 'JfBylfa8LFu/k4CG',
     },
     {
       title:
@@ -2343,7 +2537,8 @@ export class ProductListComponent {
       soldOutNumbers: '76',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '10% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '10% giảm' },
+      id: 'prGPd/dQhwQqr5uU',
     },
     {
       title:
@@ -2355,7 +2550,8 @@ export class ProductListComponent {
       soldOutNumbers: '366',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'cQZ8VV04Mz0FCQ2l',
     },
     {
       title:
@@ -2367,7 +2563,8 @@ export class ProductListComponent {
       soldOutNumbers: '227',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '33% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '33% giảm' },
+      id: 'PX/VfgN/YkWNHHIT',
     },
     {
       title:
@@ -2379,7 +2576,8 @@ export class ProductListComponent {
       soldOutNumbers: '2',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'xygaBEc/m/SGy3GV',
     },
     {
       title:
@@ -2391,7 +2589,8 @@ export class ProductListComponent {
       soldOutNumbers: '36',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '10% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '10% giảm' },
+      id: 'GTucjIzSqO+NganQ',
     },
     {
       title:
@@ -2403,7 +2602,8 @@ export class ProductListComponent {
       soldOutNumbers: '582',
       promotionOverlay:
         'https://cf.shopee.vn/file/04d67bfffa51ade9a896ed38df239c0d',
-      promotionBadge: { fullBadge: '12% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '12% giảm' },
+      id: 'xh8sSCdKxk7EURE/',
     },
     {
       title:
@@ -2415,7 +2615,8 @@ export class ProductListComponent {
       soldOutNumbers: '10',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'kEItwIdpDhoHRA2G',
     },
     {
       title:
@@ -2427,7 +2628,8 @@ export class ProductListComponent {
       soldOutNumbers: '13',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '8% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '8% giảm' },
+      id: '2T9XtGos5wAc0cVw',
     },
     {
       title:
@@ -2439,7 +2641,8 @@ export class ProductListComponent {
       soldOutNumbers: '51',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'GhLGSTpBauWcf/oa',
     },
     {
       title:
@@ -2451,7 +2654,8 @@ export class ProductListComponent {
       soldOutNumbers: '5',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'gmXcX0kiJVc7p2fC',
     },
     {
       title:
@@ -2463,7 +2667,8 @@ export class ProductListComponent {
       soldOutNumbers: '16',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'qX9HaDDL02awFYXC',
     },
     {
       title:
@@ -2475,7 +2680,8 @@ export class ProductListComponent {
       soldOutNumbers: '9',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'Tw5lVPPB4yfj2bqW',
     },
     {
       title:
@@ -2487,7 +2693,8 @@ export class ProductListComponent {
       soldOutNumbers: '830',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'Tm4hkm+7JdvUVybS',
     },
     {
       title:
@@ -2499,7 +2706,8 @@ export class ProductListComponent {
       soldOutNumbers: '1',
       promotionOverlay:
         'https://cf.shopee.vn/file/ec29770f7d45ea2c21902a9ac953384c',
-      promotionBadge: { fullBadge: '5% giảm', outlineBadge: undefined },
+      promotionBadge: { fullBadge: '5% giảm' },
+      id: 'F4JPscFWGQNxG28U',
     },
   ];
 }
