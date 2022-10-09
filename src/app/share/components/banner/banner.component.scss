@@ -1,8 +1,29 @@
+@use "sass:math";
 @import 'responsive';
 
 .wrapper {
   @include tabletAndDesktop() {
     background-color: #fff;
+  }
+
+  .slide {
+    position: relative;
+    width: 100%;
+    padding-top: math.percentage(49/120);
+
+    .image-placeholder {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
   }
 }
 
