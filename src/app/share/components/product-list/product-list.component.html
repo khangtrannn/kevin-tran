@@ -3,7 +3,7 @@
 </div>
 
 <div class="wrapper">
-  <app-product-card *ngFor="let product of data" [product]="product"></app-product-card>
-  <app-product-card *ngFor="let product of polido" [product]="product"></app-product-card>
-  <app-product-card *ngFor="let product of boutique" [product]="product"></app-product-card>
+  <ng-container *ngIf="productData$ | async as data">
+    <app-product-card *ngFor="let product of data" [product]="product"></app-product-card>
+  </ng-container>
 </div>

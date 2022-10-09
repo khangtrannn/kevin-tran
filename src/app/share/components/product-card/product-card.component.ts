@@ -18,6 +18,6 @@ export class ProductCardComponent {
   }
 
   navigateToProduct(): void {
-    this.router.navigate(['/product/lorem'])
+    this.router.navigate([`/product/${this.product.id}`]);
   }
 }

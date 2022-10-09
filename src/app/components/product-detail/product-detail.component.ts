@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Product } from 'src/app/models/product';
 
 @Component({
   selector: 'app-product-detail',
@@ -6,6 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./product-detail.component.scss'],
 })
 export class ProductDetailComponent {
+  @Input() product!: Product;
+
   productAttributes: any[] = [
     { attribute: 'Kho', value: '39' },
     { attribute: 'Thương hiệu', value: 'Keychron' },
