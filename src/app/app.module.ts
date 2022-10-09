@@ -1,5 +1,6 @@
 import { APP_INITIALIZER, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
@@ -21,7 +22,8 @@ import { ShareModule } from './share/share.module';
     BrowserModule,
     AppRoutingModule,
     NoopAnimationsModule,
-    ShareModule
+    ShareModule,
+    NgxSkeletonLoaderModule,
   ],
   providers: [
     {
