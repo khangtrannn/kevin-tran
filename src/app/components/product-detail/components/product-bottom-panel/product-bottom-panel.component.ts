@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
+import { Product } from 'src/app/models/product';
 import { ProductOrderComponent } from '../product-order/product-order.component';
 
 @Component({
@@ -8,10 +9,13 @@ import { ProductOrderComponent } from '../product-order/product-order.component'
   styleUrls: ['./product-bottom-panel.component.scss']
 })
 export class ProductBottomPanelComponent {
+  @Input() product!: Product;
+
   constructor(private dialog: MatDialog) { }
 
   openProductOrderDialog(): void {
     this.dialog.open(ProductOrderComponent, {
+      data: this.product,
       panelClass: 'product-order-dialog',
     });
   }

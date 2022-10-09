@@ -1,5 +1,7 @@
 import { DialogRef } from '@angular/cdk/dialog';
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
+import { MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { Product } from 'src/app/models/product';
 
 @Component({
   selector: 'app-product-order',
@@ -7,7 +9,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./product-order.component.scss']
 })
 export class ProductOrderComponent{
-  constructor(private dialogRef: DialogRef) { }
+  constructor(private dialogRef: DialogRef, @Inject(MAT_DIALOG_DATA) public data: Product) {}
 
   close(): void {
     this.dialogRef.close();
