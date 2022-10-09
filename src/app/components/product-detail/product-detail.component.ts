@@ -1,6 +1,5 @@
-import { Component, Inject, Input } from '@angular/core';
+import { Component, Inject } from '@angular/core';
 import { IS_MOBILE } from 'src/app/models/constants';
-import { Product } from 'src/app/models/product';
 
 @Component({
   selector: 'app-product-detail',
@@ -8,8 +7,6 @@ import { Product } from 'src/app/models/product';
   styleUrls: ['./product-detail.component.scss'],
 })
 export class ProductDetailComponent {
-  @Input() product!: Product;
-
   constructor(@Inject(IS_MOBILE) public isMobile: boolean) {}
 
   productAttributes: any[] = [

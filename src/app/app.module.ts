@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { APP_INITIALIZER, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
@@ -8,6 +8,7 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 import { IS_MOBILE } from './models/constants';
 import { DeviceRoutingGuardService } from './share/services/device-routing-guard.service';
+import { ProductService } from './share/services/product.service';
 import { ShareModule } from './share/share.module';
 
 @NgModule({
@@ -29,6 +30,12 @@ import { ShareModule } from './share/share.module';
       deps: [DeviceRoutingGuardService],
       multi: false,
     },
+    {
+      provide: APP_INITIALIZER,
+      useFactory: (productService: ProductService) => () => productService.initData().subscribe(),
+      deps: [ProductService],
+      multi: true
+    }
   ],
   bootstrap: [AppComponent]
 })
