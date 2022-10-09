@@ -12,6 +12,10 @@ export class Product {
     outlineBadge?: string | undefined,
   }
 
+  get thumbnail(): string {
+    return `${this.image}_tn`;
+  }
+
   getDiscountPrice(): number {
     return this.discount ? this.price * this.discount / 100 : this.price;
   }

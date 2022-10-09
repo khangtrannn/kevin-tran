@@ -1,13 +1,41 @@
-import { Component, Inject } from '@angular/core';
+import { Component, Inject, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { Subject, switchMap, takeUntil } from 'rxjs';
 import { IS_MOBILE } from 'src/app/models/constants';
+import { Product } from 'src/app/models/product';
+import { inOutAnimation } from 'src/app/share/animations/in-out-animation';
+import { ProductService } from './../../share/services/product.service';
 
 @Component({
   selector: 'app-product-detail',
   templateUrl: './product-detail.component.html',
   styleUrls: ['./product-detail.component.scss'],
+  animations: [inOutAnimation],
 })
-export class ProductDetailComponent {
-  constructor(@Inject(IS_MOBILE) public isMobile: boolean) {}
+export class ProductDetailComponent implements OnInit {
+  private onDestroy$ = new Subject<void>();
+  product = new Product();
+
+  isImageLoading = true;
+
+  constructor(
+    @Inject(IS_MOBILE) public isMobile: boolean,
+    public productService: ProductService,
+    private route: ActivatedRoute
+  ) {}
+
+  ngOnInit(): void {
+    this.route.params
+      .pipe(
+        switchMap((params) => this.productService.getProductById(params['id'])),
+        takeUntil(this.onDestroy$)
+      )
+      .subscribe((product) => {
+        if (product) {
+          this.product = product;
+        }
+      });
+  }
 
   productAttributes: any[] = [
     { attribute: 'Kho', value: '39' },
