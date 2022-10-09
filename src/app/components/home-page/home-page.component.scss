@@ -1,17 +1,11 @@
 @import 'variables';
 @import 'responsive';
 
-.wrapper {
-  max-width: $app-max-width;
-  margin: 0 auto;
-  padding-top: $header-height;
+.content {
+  margin-right: auto;
+  margin-left: auto;
 
-  .content {
-    margin-right: auto;
-    margin-left: auto;
-
-    @include tabletAndDesktop() {
-      margin-top: 1rem;
-    }
+  @include tabletAndDesktop() {
+    margin-top: 1rem;
   }
 }

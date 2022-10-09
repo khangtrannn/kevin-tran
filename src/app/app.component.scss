@@ -1,0 +1,7 @@
+@import 'variables';
+
+.wrapper {
+  max-width: $app-max-width;
+  margin: 0 auto;
+  padding-top: $header-height;
+}
