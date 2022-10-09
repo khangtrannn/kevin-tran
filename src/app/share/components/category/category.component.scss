@@ -55,7 +55,7 @@
 
   @include tabletAndDesktop() {
     height: fit-content;
-    max-width: $max-width;
+    max-width: $app-max-width;
     margin: 0 auto;
   }
 
