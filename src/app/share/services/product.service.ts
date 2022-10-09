@@ -14,7 +14,13 @@ export class ProductService {
   initData(): Observable<Product[]> {
     return this.httpClient
       .get<Product[]>('/assets/data/product.json')
-      .pipe(tap((products) => this.products$.next(products)));
+      .pipe(
+        tap((products) =>
+          this.products$.next(
+            products.map((product) => Object.assign(new Product(), product))
+          )
+        )
+      );
   }
 
   getAllProducts(): Observable<Product[]> {
@@ -22,6 +28,8 @@ export class ProductService {
   }
 
   getProductById(id: string): Observable<Product | undefined> {
-    return this.getAllProducts().pipe(map((products) => products.find((product) => product.id === id)));
+    return this.getAllProducts().pipe(
+      map((products) => products.find((product) => product.id === id))
+    );
   }
 }
