@@ -33,17 +33,17 @@ export class BannerComponent {
           margin: 15,
         },
         1024: {
-          stagePadding: 0,
+          stagePadding: 150,
           items: 1,
           margin: 15,
         },
         1366: {
-          stagePadding: 200,
+          stagePadding: 150,
           items: 1,
           margin: 15,
         },
         1600: {
-          stagePadding: 300,
+          stagePadding: 150,
           items: 1,
           margin: 15,
         },

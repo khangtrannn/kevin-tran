@@ -1,17 +1,8 @@
 @import 'responsive';
 
 .header {
-  z-index: 999999;
   padding: 0 .625rem .625rem;
-  top: 0;
-  position: sticky;
-  position: -webkit-sticky;
   background-color: hsla(0,0%,100%,.95);
-
-  @include tabletAndDesktop() {
-    position: static;
-    top: var(--header-height);
-  }
 
   &::before {
     content: "";

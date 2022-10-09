@@ -2,11 +2,13 @@
   <div class="header">
     <div class="flex items-center">
       <img class="h-6 mr-1" src="/assets/images/logo.png" alt="Logo" />
-      <span class="uppercase text-lg tracking-[0.02em] font-medium">Kevin Tran</span>
+      <span class="uppercase text-base tablet:text-lg tracking-[0.02em] tablet:font-medium">Kevin Tran</span>
     </div>
     <div class="flex items-center">
-      <span class="mr-10">Sản phẩm nổi bật</span>
-      <span class="mr-10">Kevin Tran Collab</span>
+      <ng-container *ngIf="!isMobile">
+        <span class="mr-10">Sản phẩm nổi bật</span>
+        <span class="mr-10">Kevin Tran Collab</span>
+      </ng-container>
       <mat-icon class="text-black">shopping_cart</mat-icon>
     </div>
   </div>
