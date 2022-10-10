@@ -16,7 +16,7 @@ export class ProductBottomPanelComponent {
   openProductOrderDialog(): void {
     this.dialog.open(ProductOrderComponent, {
       data: this.product,
-      panelClass: 'product-order-dialog',
+      panelClass: 'dialog-bottom-panel',
     });
   }
 }
