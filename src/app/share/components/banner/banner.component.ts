@@ -54,17 +54,17 @@ export class BannerComponent {
     {
       id: '1',
       title: 'Banner 1',
-      url: '/assets/images/banner/banner-2.jpeg',
+      url: '/assets/images/banner/banner-2.webp',
     },
     {
       id: '2',
       title: 'Banner 2',
-      url: '/assets/images/banner/banner-1.jpg',
+      url: '/assets/images/banner/banner-1.webp',
     },
     {
       id: '3',
       title: 'Banner 3',
-      url: '/assets/images/banner/banner-3.jpeg',
+      url: '/assets/images/banner/banner-3.webp',
     },
   ];
 }
