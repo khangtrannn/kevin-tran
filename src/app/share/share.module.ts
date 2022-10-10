@@ -1,11 +1,8 @@
 import { CommonModule } from '@angular/common';
-import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatIconModule } from '@angular/material/icon';
-import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { ProductOrderComponent } from '../components/product-detail/components/product-order/product-order.component';
@@ -38,10 +35,7 @@ const declarations = [
 @NgModule({
   imports: [
     CommonModule,
-    BrowserModule,
-    BrowserAnimationsModule,
     CarouselModule,
-    HttpClientModule,
     RouterModule,
     MatDialogModule,
     MatButtonToggleModule,

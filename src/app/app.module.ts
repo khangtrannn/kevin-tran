@@ -1,11 +1,11 @@
+import { HttpClientModule } from '@angular/common/http';
 import { APP_INITIALIZER, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 
-import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomePageComponent } from './components/home-page/home-page.component';
 import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 import { IS_MOBILE } from './models/constants';
 import { DeviceRoutingGuardService } from './share/services/device-routing-guard.service';
@@ -16,10 +16,11 @@ import { ShareModule } from './share/share.module';
   declarations: [
     AppComponent,
     ProductDetailComponent,
-    HomePageComponent,
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
+    HttpClientModule,
     AppRoutingModule,
     NoopAnimationsModule,
     ShareModule,

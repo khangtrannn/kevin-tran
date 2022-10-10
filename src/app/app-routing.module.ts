@@ -1,13 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomePageComponent } from './components/home-page/home-page.component';
 import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 
 const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    component: HomePageComponent,
+    loadChildren: () => import('./components/home-page/home-page.module').then((m) => m.HomePageModule),
   },
   {
     path: 'product/:id',
