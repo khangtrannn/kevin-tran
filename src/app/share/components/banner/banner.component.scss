@@ -9,7 +9,7 @@
   .slide {
     position: relative;
     width: 100%;
-    padding-top: math.percentage(49/120);
+    padding-top: math.percentage(math.div(49, 120));
 
     .image-placeholder {
       position: absolute;
