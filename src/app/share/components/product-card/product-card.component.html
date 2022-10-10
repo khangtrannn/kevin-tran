@@ -1,7 +1,7 @@
 <div (click)="navigateToProduct()" class="product-card__wrapper cursor-pointer">
   <div class="product-card__header">
     <div class="product-card__header-placeholder">
-      <img class="product-img" [alt]="product.title" [src]="product.thumbnail">
+      <img width="1" height="1" class="product-img w-full h-auto" [alt]="product.title" [src]="product.thumbnail">
       <div *ngIf="product.isFavorite" class="favorite-badge">
         <div class="favorite-badge__wrapper">
           <span class="favorite-badge__title">Yêu thích</span>
@@ -12,7 +12,7 @@
 
       <div *ngIf="product.promotionOverlay" class="customized-overlay-img">
         <div class="customized-overlay-img__wrapper">
-          <img class="w-full" [src]="product.promotionOverlay" />
+          <img alt="Promotion Overlay" class="w-full" [src]="product.promotionOverlay" />
         </div>
       </div>
     </div>
