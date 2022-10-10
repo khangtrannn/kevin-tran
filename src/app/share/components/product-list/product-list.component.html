@@ -4,6 +4,6 @@
 
 <div class="wrapper">
   <ng-container *ngIf="productData$ | async as data">
-    <app-product-card *ngFor="let product of data.slice(0, 30)" [product]="product"></app-product-card>
+    <app-product-card *ngFor="let product of data.slice(0, 20)" [product]="product"></app-product-card>
   </ng-container>
 </div>
