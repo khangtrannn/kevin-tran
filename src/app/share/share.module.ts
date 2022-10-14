@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatIconModule } from '@angular/material/icon';
+import { MatRadioModule } from '@angular/material/radio';
 import { RouterModule } from '@angular/router';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { ProductOrderComponent } from '../components/product-detail/components/product-order/product-order.component';
@@ -38,8 +38,8 @@ const declarations = [
     CarouselModule,
     RouterModule,
     MatDialogModule,
-    MatButtonToggleModule,
     MatIconModule,
+    MatRadioModule,
   ],
   declarations: [...declarations],
   exports: [...declarations],
