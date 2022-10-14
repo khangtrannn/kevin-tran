@@ -5,6 +5,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatRadioModule } from '@angular/material/radio';
 import { RouterModule } from '@angular/router';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { ColorChoiceComponent } from '../components/product-detail/components/color-choice/color-choice.component';
 import { ProductOrderComponent } from '../components/product-detail/components/product-order/product-order.component';
 import { PromotionComponent } from '../components/product-detail/components/promotion/promotion.component';
 import { ProductBottomPanelComponent } from './../components/product-detail/components/product-bottom-panel/product-bottom-panel.component';
@@ -30,6 +31,7 @@ const declarations = [
   ProductBottomPanelComponent,
   ProductOrderComponent,
   PromotionComponent,
+  ColorChoiceComponent,
 ];
 
 @NgModule({

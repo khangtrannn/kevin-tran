@@ -24,35 +24,6 @@
 
 .option {
   padding: 1rem 0 0.375rem;
-
-  .title {
-    color: rgba(0, 0, 0, 0.87);
-    text-transform: capitalize;
-    font-size: 0.875rem;
-  }
-
-  .color {
-    width: 1.25rem;
-    height: 1.25rem;
-    border-radius: 50%;
-
-    &-wrapper {
-      border-radius: 50%;
-      padding: 0.1rem;
-
-      &:not(:last-child) {
-        margin-right: 0.5rem;
-      }
-
-      &.active {
-        border: 2px solid gray;
-      }
-
-      &:hover, &.active {
-        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
-      }
-    }
-  }
 }
 
 .hairline-border-bottom {
