@@ -1,16 +1,10 @@
-.title {
-  color: rgba(0, 0, 0, 0.87);
-  text-transform: capitalize;
-  font-size: 0.875rem;
-}
-
 :host ::ng-deep {
   mat-radio-button.color {
     margin-right: 0.25rem;
 
     span.mat-radio-container {
-      width: 1.5rem;
-      height: 1.5rem;
+      width: 1.75rem;
+      height: 1.75rem;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -18,8 +12,8 @@
 
       .mat-radio-outer-circle {
         position: relative;
-        height: 1rem;
-        width: 1rem;
+        height: 1.25rem;
+        width: 1.25rem;
         background-color: var(--color);
         border-color: var(--color);
       }

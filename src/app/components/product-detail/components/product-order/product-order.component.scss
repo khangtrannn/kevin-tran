@@ -30,3 +30,11 @@
   border: solid rgba(0, 0, 0, 0.09);
   border-width: 0 0 1px;
 }
+
+:host ::ng-deep {
+  .title {
+    color: rgba(0, 0, 0, 0.87);
+    text-transform: capitalize;
+    font-size: 0.875rem;
+  }
+}
