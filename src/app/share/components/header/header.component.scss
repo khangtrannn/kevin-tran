@@ -14,4 +14,20 @@
     backdrop-filter: saturate(180%) blur(20px);
     padding: 0 0.5rem;
   }
+
+  .order-number {
+    position: absolute;
+    height: 18px;
+    min-width: 19px;
+    left: 11px;
+    top: -7px;
+    background: #ee4d2d;
+    color: #fff;
+    font-size: 10px;
+    line-height: 12px;
+    padding: 2px;
+    border-radius: 9px;
+    border: 1px solid #fff;
+    text-align: center;
+  }
 }
