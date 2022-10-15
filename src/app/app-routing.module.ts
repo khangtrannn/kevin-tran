@@ -6,16 +6,25 @@ const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    loadChildren: () => import('./components/home-page/home-page.module').then((m) => m.HomePageModule),
+    loadChildren: () =>
+      import('./components/home-page/home-page.module').then(
+        (m) => m.HomePageModule
+      ),
   },
   {
     path: 'product/:id',
     component: ProductDetailComponent,
-  }
+  },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled' })],
-  exports: [RouterModule]
+  imports: [
+    RouterModule.forRoot(routes, {
+      enableTracing: false,
+      onSameUrlNavigation: 'reload',
+      scrollPositionRestoration: 'enabled',
+    }),
+  ],
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
