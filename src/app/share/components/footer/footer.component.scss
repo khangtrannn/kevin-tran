@@ -31,13 +31,12 @@
 
     .logo-wrapper {
       width: 125px;
-    }
 
-    .content-wrapper {
-      display: flex;
-      flex-direction: column;
-      justify-content: end;
-      margin-bottom: 1rem;
+      img {
+        max-width: 75px;
+        display: block;
+        margin: 0.75rem auto 0;
+      }
     }
   }
 }
