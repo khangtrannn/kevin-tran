@@ -13,7 +13,9 @@
       </ng-container>
       <div class="relative">
         <mat-icon class="text-black">shopping_cart</mat-icon>
-        <span class="order-number">1</span>
+        <ng-container *ngIf="orders$ | async as data">
+          <span class="order-number">{{ data?.length }}</span>
+        </ng-container>
       </div>
     </div>
   </div>

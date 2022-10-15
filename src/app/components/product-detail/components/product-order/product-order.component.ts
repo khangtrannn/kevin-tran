@@ -4,6 +4,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { MatDialog, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { Product } from 'src/app/models/product';
 import { NotificationModalComponent } from 'src/app/share/components/notification-modal/notification-modal.component';
+import { OrderService } from './../../../../share/services/order.service';
 
 @Component({
   selector: 'app-product-order',
@@ -14,6 +15,7 @@ export class ProductOrderComponent {
   constructor(
     private dialogRef: DialogRef,
     private dialog: MatDialog,
+    private orderService: OrderService,
     @Inject(MAT_DIALOG_DATA) public data: Product,
   ) {}
 
@@ -26,6 +28,13 @@ export class ProductOrderComponent {
   onSubmit(): void {
     if (this.productOrderForm.valid) {
       this.close();
+
+      this.orderService.addOrder({
+        productId: this.data.id,
+        color: this.productOrderForm.value.color!,
+        size: this.productOrderForm.value.size!,
+        quantity: this.productOrderForm.value.quantity!,
+      });
 
       this.dialog.open(NotificationModalComponent, {
         panelClass: 'notification-modal',
