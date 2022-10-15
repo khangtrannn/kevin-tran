@@ -12,10 +12,10 @@
 </div>
 
 <div class="option px-3">
-  <form (ngSubmit)="onSubmit()" [formGroup]="productOrderForm">
+  <form #f="ngForm" (ngSubmit)="onSubmit()" [formGroup]="productOrderForm">
     <app-color-choice formControlName="color"></app-color-choice>
     <app-size-choice formControlName="size"></app-size-choice>
     <app-quantity-choice formControlName="quantity"></app-quantity-choice>
-    <button type="submit" class="stardust-button">Thêm vào Giỏ hàng</button>
+    <button [disabled]="f.invalid" type="submit" class="stardust-button">Thêm vào Giỏ hàng</button>
   </form>
 </div>
