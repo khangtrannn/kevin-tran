@@ -12,8 +12,10 @@
 </div>
 
 <div class="option px-3">
-  <app-color-choice></app-color-choice>
-  <app-size-choice></app-size-choice>
-  <app-quantity-choice></app-quantity-choice>
-  <button disabled class="stardust-button">Thêm vào Giỏ hàng</button>
+  <form (ngSubmit)="onSubmit()" [formGroup]="productOrderForm">
+    <app-color-choice formControlName="color"></app-color-choice>
+    <app-size-choice></app-size-choice>
+    <app-quantity-choice></app-quantity-choice>
+    <button type="submit" class="stardust-button">Thêm vào Giỏ hàng</button>
+  </form>
 </div>

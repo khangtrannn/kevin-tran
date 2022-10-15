@@ -1,7 +1,10 @@
 <p class="mb-2 title">Màu sắc</p>
-<mat-radio-group aria-label="Color">
-  <mat-radio-button [style.--color]="'black'" class="color" value="1"></mat-radio-button>
-  <mat-radio-button [style.--color]="'#085ea0'" class="color" value="2"></mat-radio-button>
-  <mat-radio-button [style.--color]="'#8B4513'" class="color" value="3"></mat-radio-button>
-  <mat-radio-button [style.--color]="'grey'" class="color" value="4"></mat-radio-button>
+<mat-radio-group
+  [(ngModel)]="value" aria-label="Color"
+  (ngModelChange)="onColorChanged($event)"
+>
+  <mat-radio-button [style.--color]="'black'" class="color" value="Đen"></mat-radio-button>
+  <mat-radio-button [style.--color]="'#085ea0'" class="color" value="Xanh"></mat-radio-button>
+  <mat-radio-button [style.--color]="'#8B4513'" class="color" value="Nâu đất"></mat-radio-button>
+  <mat-radio-button [style.--color]="'grey'" class="color" value="Xám"></mat-radio-button>
 </mat-radio-group>
