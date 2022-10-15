@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { ColorChoiceComponent } from '../components/product-detail/components/product-order/color-choice/color-choice.component';
 import { ProductOrderComponent } from '../components/product-detail/components/product-order/product-order.component';
+import { QuantityChoiceComponent } from '../components/product-detail/components/product-order/quantity-choice/quantity-choice.component';
 import { SizeChoiceComponent } from '../components/product-detail/components/product-order/size-choice/size-choice.component';
 import { PromotionComponent } from '../components/product-detail/components/promotion/promotion.component';
 import { ProductBottomPanelComponent } from './../components/product-detail/components/product-bottom-panel/product-bottom-panel.component';
@@ -36,6 +37,7 @@ const declarations = [
   PromotionComponent,
   ColorChoiceComponent,
   SizeChoiceComponent,
+  QuantityChoiceComponent,
 ];
 
 @NgModule({

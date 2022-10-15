@@ -1,0 +1,36 @@
+.wrapper {
+  margin-top: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.09);
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+
+  .quantity {
+    .increase,
+    .decrease {
+      width: 1.75rem;
+      text-align: center;
+    }
+
+    input.value {
+      width: 3.75rem;
+      border: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+      border-top: 1px solid rgba(0, 0, 0, 0.09);
+      text-align: center;
+      font-size: .875rem;
+      color: #ee4d2d;
+    }
+  }
+}
+
+.hairline-border {
+  border: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+:host ::ng-deep {
+  svg {
+    height: 0.625rem;
+    width: 0.625rem;
+  }
+}
