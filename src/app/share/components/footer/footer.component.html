@@ -1,6 +1,6 @@
 <div class="footer-wrapper">
   <div class="kevin-tran">
-    <div class="logo-wrapper p-4">
+    <div class="logo-wrapper">
       <img src="/assets/images/logo-v2.png" alt="Kevin Tran Logo" />
     </div>
     <div>
@@ -19,11 +19,13 @@
       <img src="/assets/images/web-thanh-cong-logo.png" alt="Web Thanh Cong Logo">
     </div>
 
-    <div class="content-wrapper">
+    <div class="content-wrapper relative">
       <span class="block mb-2"><b>Website:</b> www.webthanhcong.vn</span>
       <span class="block mb-2"><b>Email:</b> webthanhcong.vn@gmail.com</span>
       <span class="block mb-2"><b>Hotline:</b> 0987654321</span>
-      <mat-icon>facebook</mat-icon>
+      <span *ngIf="!isMobile" class="absolute right-0 bottom-2 flex items-center">
+        <b class="mr-2">Xem thêm tại:</b> <mat-icon>facebook</mat-icon>
+      </span>
     </div>
   </div>
 </div>
