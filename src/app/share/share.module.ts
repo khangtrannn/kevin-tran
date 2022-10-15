@@ -12,6 +12,7 @@ import { ProductBottomPanelComponent } from './../components/product-detail/comp
 import { BadgeComponent } from './components/badge/badge.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { DiscountBadgeComponent } from './components/discount-badge/discount-badge.component';
+import { FooterComponent } from './components/footer/footer.component';
 import { CartListComponent } from './components/header/components/cart-list/cart-list.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ProductCardComponent } from './components/product-card/product-card.component';
@@ -27,6 +28,7 @@ const declarations = [
   ProductListComponent,
   CartListComponent,
   HeaderComponent,
+  FooterComponent,
   DiscountBadgeComponent,
   ProductBottomPanelComponent,
   ProductOrderComponent,
