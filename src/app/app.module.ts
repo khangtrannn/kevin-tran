@@ -2,6 +2,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { APP_INITIALIZER, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
+import { ProductDetailDesktopComponent } from './components/product-detail/product-detail-desktop/product-detail-desktop.component';
+import { ProductDetailMobileComponent } from './components/product-detail/product-detail-mobile/product-detail-mobile.component';
 
 import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
@@ -16,6 +18,8 @@ import { ShareModule } from './share/share.module';
   declarations: [
     AppComponent,
     ProductDetailComponent,
+    ProductDetailDesktopComponent,
+    ProductDetailMobileComponent,
   ],
   imports: [
     BrowserModule,

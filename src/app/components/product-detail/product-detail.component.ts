@@ -17,7 +17,6 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
   private onDestroy$ = new Subject<void>();
   private readonly HOST_CLASS = 'product-detail';
   product = new Product();
-  isImageLoading = true;
 
   productAttributes: any[] = [
     { attribute: 'Kho', value: '999' },

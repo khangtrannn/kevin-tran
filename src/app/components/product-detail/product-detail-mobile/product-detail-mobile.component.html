@@ -1,0 +1,69 @@
+<div class="product-detail">
+  <div class="product-detail__carousel">
+    <div class="product-detail__carousel-placeholder">
+      <ngx-skeleton-loader *ngIf="isImageLoading" [theme]="{ width: '100%', height: '100%', 'border-radius': 0 }"></ngx-skeleton-loader>
+      <img (load)="isImageLoading = false" [class.invisible]="isImageLoading" [src]="product.image" [alt]="product.title" />
+    </div>
+  </div>
+
+  <div class="product-detail__overview">
+    <div class="flex">
+      <div class="product-detail__title">
+        <div class="badge badge--preferred">Yêu thích</div>
+        <span>{{ product.title }}</span>
+      </div>
+      <app-discount-badge *ngIf="product.discount" [percent]="product.discount"></app-discount-badge>
+    </div>
+
+    <div class="product-detail__price">
+      <div>
+        <div class="actual-price">₫{{ product.price | number:'1.0-0' }}</div>
+        <div *ngIf="product.discount" class="discount-price">₫{{ product.getDiscountPrice() | number:'1.0-0' }}</div>
+      </div>
+      <div class="flex items-center h-[1.6875rem]">
+        <div class="badge--outline">Mua Kèm Deal Sốc</div>
+      </div>
+    </div>
+
+    <div class="product-detail__review flex items-center h-12">
+      <div class="flex items-center">
+        <app-rating *ngFor="let i of [].constructor(5)"></app-rating>
+        <div>
+          <span class="rating-number">5.0</span>
+        </div>
+      </div>
+      <div class="sold-count">
+        <span>{{ product.soldOutNumbers }} Đã bán</span>
+      </div>
+    </div>
+
+    <app-promotion></app-promotion>
+  </div>
+
+  <div class="product-detail__description pb-14">
+    <p class="title">Description</p>
+
+    <div class="product-attributes-table">
+      <div *ngFor="let attribute of productAttributes" class="product-attributes-sub-table flex">
+        <div class="attribute">{{ attribute.attribute }}</div>
+        <div class="value">{{ attribute.value }}</div>
+      </div>
+    </div>
+
+    <div class="mx-[.75rem] py-[.375rem]">
+      <p class="font-light text-[.875rem] opacity-[.65] whitespace-pre-wrap">
+        - Chất liệu 100% Cotton tạo sự mềm mại ngay lần đầu chạm<br/>
+        - Thấm mồ hôi tốt, để bạn luôn thoải mái khi mặc<br/>
+        - Nhẹ và độ bền vải cao dễ dàng sử dụng<br/>
+        - Thân thiện với môi trường<br/>
+        - Tự hào sản xuất tại Việt Nam
+      </p>
+    </div>
+
+    <div class="w-[351px] h-[322.907px] mx-auto">
+      <img class="h-full w-full object-fill" alt="Size choosing guide" src="/assets/images/size-guide.webp">
+    </div>
+  </div>
+</div>
+
+<app-product-bottom-panel [product]="product"></app-product-bottom-panel>
