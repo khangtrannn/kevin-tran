@@ -84,6 +84,12 @@ body {
   }
 }
 
+.app-mobile.product-detail {
+  app-footer {
+    display: none;
+  }
+}
+
 .mat-radio-ripple {
   display: none;
 }

@@ -1,4 +1,5 @@
-import { Component, Inject, OnInit } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
+import { Component, Inject, OnDestroy, OnInit, Renderer2 } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Subject, switchMap, takeUntil } from 'rxjs';
 import { IS_MOBILE } from 'src/app/models/constants';
@@ -12,16 +13,29 @@ import { ProductService } from './../../share/services/product.service';
   styleUrls: ['./product-detail.component.scss'],
   animations: [inOutAnimation],
 })
-export class ProductDetailComponent implements OnInit {
+export class ProductDetailComponent implements OnInit, OnDestroy {
   private onDestroy$ = new Subject<void>();
+  private readonly HOST_CLASS = 'product-detail';
   product = new Product();
-
   isImageLoading = true;
+
+  productAttributes: any[] = [
+    { attribute: 'Kho', value: '999' },
+    { attribute: 'Thương hiệu', value: 'Kevin Tran & Collab' },
+    { attribute: 'Phong cách', value: 'Retro, Đường phố, Thể thao, Hàn Quốc' },
+    { attribute: 'Xuất xứ', value: 'Việt Nam' },
+    { attribute: 'Chất liệu', value: 'Cotton' },
+    { attribute: 'Hạn bảo hành', value: '12 tháng' },
+    { attribute: 'Loại bảo hành', value: 'Bảo hành nhà sản xuất' },
+    { attribute: 'Dán kiểu áo', value: 'Cổ điển' },
+  ];
 
   constructor(
     @Inject(IS_MOBILE) public isMobile: boolean,
+    @Inject(DOCUMENT) private document: Document,
     public productService: ProductService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private renderer: Renderer2,
   ) {}
 
   ngOnInit(): void {
@@ -35,16 +49,11 @@ export class ProductDetailComponent implements OnInit {
           this.product = product;
         }
       });
+
+    this.renderer.addClass(this.document.body, this.HOST_CLASS);
   }
 
-  productAttributes: any[] = [
-    { attribute: 'Kho', value: '999' },
-    { attribute: 'Thương hiệu', value: 'Kevin Tran & Collab' },
-    { attribute: 'Phong cách', value: 'Retro, Đường phố, Thể thao, Hàn Quốc' },
-    { attribute: 'Xuất xứ', value: 'Việt Nam' },
-    { attribute: 'Chất liệu', value: 'Cotton' },
-    { attribute: 'Hạn bảo hành', value: '12 tháng' },
-    { attribute: 'Loại bảo hành', value: 'Bảo hành nhà sản xuất' },
-    { attribute: 'Dán kiểu áo', value: 'Cổ điển' },
-  ];
+  ngOnDestroy(): void {
+    this.renderer.removeClass(this.document.body, this.HOST_CLASS);
+  }
 }
