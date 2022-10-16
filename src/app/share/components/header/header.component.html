@@ -11,10 +11,10 @@
         <span class="mr-10">Sản phẩm nổi bật</span>
         <span class="mr-10">Kevin Tran Collab</span>
       </ng-container>
-      <div class="relative">
+      <div class="relative flex">
         <mat-icon class="text-black">shopping_cart</mat-icon>
         <ng-container *ngIf="orders$ | async as data">
-          <span class="order-number">{{ data?.length }}</span>
+          <span class="order-number">{{ data.length }}</span>
         </ng-container>
       </div>
     </div>
