@@ -1,3 +1,5 @@
+@import 'variables';
+
 .header {
   display: flex;
   padding: 0.75rem 0.75rem 1rem;
@@ -13,7 +15,7 @@
 
   .price {
     margin-bottom: 0.375rem;
-    color: #ee4d2d;
+    color: $primary-color;
   }
 
   .warehouse {

@@ -1,5 +1,6 @@
-import { Component, forwardRef } from '@angular/core';
-import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
+import { Component, forwardRef, OnDestroy, OnInit } from '@angular/core';
+import { ControlValueAccessor, FormControl, FormGroup, NG_VALUE_ACCESSOR } from '@angular/forms';
+import { Subject } from 'rxjs';
 
 @Component({
   selector: 'app-size-choice',
@@ -13,26 +14,37 @@ import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
     },
   ],
 })
-export class SizeChoiceComponent implements ControlValueAccessor {
+export class SizeChoiceComponent implements OnInit, OnDestroy, ControlValueAccessor {
+  private onDestroy$ = new Subject<void>();
   options: string[] = ['S', 'M', 'L', 'XL'];
 
-  value: string | undefined;
-  onTouched: (() => void) | undefined;
-  onChange: ((fieldValue: unknown) => void) | undefined;
+  colorForm = new FormGroup({
+    color: new FormControl('')
+  });
 
-  registerOnChange(onChange: (_fieldValue: unknown) => void): void {
+  onTouched: (() => void) | undefined;
+  onChange: ((value: unknown) => void) | undefined;
+
+  ngOnInit(): void {
+    this.colorForm.controls.color.valueChanges.subscribe((value) => {
+      this.onChange?.(value);
+    });
+  }
+
+  registerOnChange(onChange: (_value: unknown) => void): void {
     this.onChange = onChange;
   }
 
-  writeValue(fieldValue: string): void {
-    this.value = fieldValue;
+  writeValue(value: string): void {
+    this.colorForm.controls.color.setValue(value);
   }
 
   registerOnTouched(onTouched: () => void): void {
     this.onTouched = onTouched;
   }
 
-  onSizeChanged(value: string) {
-    this.onChange?.(value);
+  ngOnDestroy(): void {
+    this.onDestroy$.next();
+    this.onDestroy$.complete();
   }
 }

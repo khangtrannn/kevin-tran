@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatIconModule } from '@angular/material/icon';
 import { MatRadioModule } from '@angular/material/radio';
@@ -7,6 +8,7 @@ import { RouterModule } from '@angular/router';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BadgeComponent } from './components/badge/badge.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { ButtonGroupComponent } from './components/button-group/button-group.component';
 import { DiscountBadgeComponent } from './components/discount-badge/discount-badge.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CartListComponent } from './components/header/components/cart-list/cart-list.component';
@@ -26,6 +28,7 @@ const declarations = [
   HeaderComponent,
   FooterComponent,
   DiscountBadgeComponent,
+  ButtonGroupComponent,
 ];
 
 @NgModule({
@@ -36,6 +39,7 @@ const declarations = [
     MatDialogModule,
     MatIconModule,
     MatRadioModule,
+    FormsModule,
   ],
   declarations: [...declarations],
   exports: [...declarations],
