@@ -48,6 +48,7 @@ $kt-shopee-theme: mat.define-light-theme((
 @import 'form-control';
 @import 'animation';
 @import 'layout';
+@import 'variables';
 
 body {
   margin: 0;
@@ -63,7 +64,7 @@ body {
 
 .badge {
   &--outline {
-    color: #ee4d2d;
+    color: $primary-color;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;

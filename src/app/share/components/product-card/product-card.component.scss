@@ -1,3 +1,5 @@
+@import 'variables';
+
 .product-card {
   &__wrapper {
     box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 10%);
@@ -28,7 +30,7 @@
       &__wrapper {
         position: relative;
         padding: 0 0.25rem;
-        color: rgb(242, 82, 32);
+        color: $primary-color;
         height: 0.9375rem;
         font-size: 0.5625rem;
         line-height: 0.6875rem;
@@ -112,7 +114,7 @@
 
       .actual-price {
         font-weight: 500;
-        color: #ee4d2d;
+        color: $primary-color;
       }
     }
 
