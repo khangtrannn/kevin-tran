@@ -76,11 +76,10 @@ body {
   &--preferred {
     font-size: .75rem;
     height: 1rem;
-    line-height: .875rem;
     border-radius: .125rem;
     padding: .125rem .25rem;
     white-space: nowrap;
-    background-color: #ee4d2d;
+    background-color: $primary-color;
     color: #fff;
   }
 }

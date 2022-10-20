@@ -1,3 +1,5 @@
+@import 'variables';
+
 :host {
   .product-detail {
     padding-bottom: 1rem;
@@ -48,7 +50,7 @@
       gap: 40px;
 
       .actual-price {
-        color: #ee4d2d;
+        color: $primary-color;
         font-size: 1.125rem;
         font-weight: 500;
       }
@@ -92,7 +94,7 @@
       }
 
       .rating-number {
-        color: #ee4d2d;
+        color: $primary-color;
         margin-left: 0.4375rem;
         font-size: 0.875rem;
       }
