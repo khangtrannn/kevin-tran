@@ -17,6 +17,7 @@ export class ProductBottomPanelComponent {
     this.dialog.open(ProductOrderComponent, {
       data: this.product,
       panelClass: 'dialog-bottom-panel',
+      autoFocus: false,
     });
   }
 }

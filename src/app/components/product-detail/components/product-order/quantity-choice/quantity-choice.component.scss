@@ -1,3 +1,5 @@
+@import 'variables';
+
 .wrapper {
   margin-top: 1rem;
   border-top: 1px solid rgba(0, 0, 0, 0.09);
@@ -19,8 +21,12 @@
       border-top: 1px solid rgba(0, 0, 0, 0.09);
       text-align: center;
       font-size: .875rem;
-      color: #ee4d2d;
+      color: $primary-color;
       border-radius: unset;
+
+      &:focus {
+        border: none;
+      }
     }
   }
 }

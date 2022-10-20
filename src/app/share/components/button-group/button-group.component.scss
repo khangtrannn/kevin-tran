@@ -1,3 +1,5 @@
+@import 'variables';
+
 .wrapper {
   margin-top: 1rem;
   border-top: 1px solid rgba(0, 0, 0, 0.09);
@@ -40,8 +42,8 @@
 
   mat-radio-button.mat-radio-checked {
     span.mat-radio-label-content {
-      color: #ee4d2d;
-      border-color: #ee4d2d;
+      color: $primary-color;
+      border-color: $primary-color;
       position: relative;
       background-color: #fff;
 
@@ -57,9 +59,9 @@
           transparent,
           transparent,
           50%,
-          #ee4d2d,
+          $primary-color,
           50.001%,
-          #ee4d2d
+          $primary-color,
         );
       }
     }

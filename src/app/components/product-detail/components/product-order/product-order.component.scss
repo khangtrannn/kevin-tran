@@ -36,7 +36,7 @@
 .stardust-button {
   margin-top: 1rem;
   width: 100%;
-  background-color: #ee4d2d;
+  background-color: $primary-color;
   color: #fff;
   font-weight: 300;
   text-transform: uppercase;
@@ -56,5 +56,14 @@
     color: rgba(0, 0, 0, 0.87);
     text-transform: capitalize;
     font-size: 0.875rem;
+  }
+
+  app-button-group {
+    &:first-child {
+      .wrapper {
+        border-top: none;
+        margin-top: 0;
+      }
+    }
   }
 }
