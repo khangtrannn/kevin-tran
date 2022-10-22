@@ -1,3 +1,58 @@
-<p>
-  product-detail-desktop works!
-</p>
+<div class="wrapper">
+  <div class="header">
+    <div class="product-img">
+      <img width="450" height="450" [src]="product.image" [alt]="product.title">
+    </div>
+    <div class="content">
+      <span class="title">
+        <div class="relative top-[-2px] mr-2 !h-fit p-1 badge badge--preferred">Yêu thích</div>
+        {{ product.title }}
+      </span>
+      <div class="meta flex mt-[0.625rem]">
+        <div class="rating">
+          <span class="rating-number mr-2">4.9</span>
+          <app-rating *ngFor="let i of [].constructor(5)"></app-rating>
+        </div>
+        <div class="sold-out">
+          <span class="number">{{ product.soldOutNumbers }}</span>
+          <span class="label">Đã Bán</span>
+        </div>
+      </div>
+
+      <ng-container *ngTemplateOutlet="discountTemplate"></ng-container>
+      <ng-container *ngTemplateOutlet="order"></ng-container>
+    </div>
+  </div>
+</div>
+
+<ng-template #discountTemplate>
+  <div class="price-wrapper">
+    <span class="actual-price">₫350.000</span>
+    <span class="discount-price">₫220.000</span>
+    <span class="discount-amount">37% giảm</span>
+  </div>
+</ng-template>
+
+<ng-template #order>
+  <div class="order">
+    <div class="promotion flex">
+      <div class="label">Deal sốc</div>
+      <div class="promotion-badge">Mua Kèm Deal Sốc</div>
+    </div>
+    <form class="selection">
+      <div class="color mb-3 flex">
+        <div class="label">Màu</div>
+        <app-color-choice></app-color-choice>
+      </div>
+      <div class="size mb-3 flex">
+        <div class="label">Size</div>
+        <app-size-choice></app-size-choice>
+      </div>
+      <div class="quantity flex">
+        <div class="label">Số Lượng</div>
+        <app-quantity-choice></app-quantity-choice>
+        <div class="label w-auto ml-4">417 sản phẩm có sẵn</div>
+      </div>
+    </form>
+  </div>
+</ng-template>
