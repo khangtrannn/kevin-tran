@@ -13,6 +13,7 @@ import { OrderService } from './../../../share/services/order.service';
 export class ProductDetailDesktopComponent {
   @Input() product!: Product;
   @Input() productAttributes!: any;
+  @Input() description!: string;
 
   isImageLoading = true;
 

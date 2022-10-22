@@ -1,5 +1,5 @@
 <div class="header">
-  <div class="product-img relative !mt-5">
+  <div class="product-img relative !mt-5 ml-[-8px]">
     <img width="450" height="450" (load)="isImageLoading = false" [src]="product.image" [alt]="product.title">
     <ngx-skeleton-loader *ngIf="isImageLoading" class="absolute top-0 left-0" [theme]="{ background: '#fafafa', 'width.px': 450, 'height.px': 450, 'border-radius': 0 }"></ngx-skeleton-loader>
   </div>
@@ -31,6 +31,13 @@
     <div class="title">CHI TIẾT SẢN PHẨM</div>
     <div class="attribute-wrapper">
       <app-attribute-table [attributes]="productAttributes"></app-attribute-table>
+    </div>
+
+    <div class="title mt-8 mb-4">MÔ TẢ SẢN PHẨM</div>
+    <div class="mx-[1.25rem] py-[.375rem]">
+      <p class="text-[.875rem] leading-[1.9] opacity-[.8] whitespace-pre-line">
+        {{ description }}
+      </p>
     </div>
   </div>
 </div>
