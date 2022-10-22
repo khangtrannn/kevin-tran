@@ -7,10 +7,10 @@
       <span class="uppercase text-base tablet:text-lg tracking-[0.02em] tablet:font-medium">Kevin Tran</span>
     </a>
     <div class="flex items-center whitespace-nowrap">
-      <ng-container *ngIf="!isMobile">
+      <div *ngIf="!isMobile" class="menu">
         <span class="mr-10">Sản phẩm nổi bật</span>
         <span class="mr-10">Kevin Tran Collab</span>
-      </ng-container>
+      </div>
       <div class="relative flex">
         <mat-icon class="text-black">shopping_cart</mat-icon>
         <ng-container *ngIf="orders$ | async as data">

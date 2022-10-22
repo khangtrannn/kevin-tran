@@ -31,3 +31,9 @@
     text-align: center;
   }
 }
+
+:host-context(.app-desktop:not(.home-page)) {
+  .menu {
+    display: none;
+  }
+}
