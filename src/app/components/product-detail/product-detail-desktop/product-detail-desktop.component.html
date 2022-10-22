@@ -41,22 +41,25 @@
       <div class="label">Deal sốc</div>
       <div class="promotion-badge">Mua Kèm Deal Sốc</div>
     </div>
-    <form class="selection">
-      <div class="color mb-3 flex">
-        <div class="label">Màu</div>
-        <app-color-choice></app-color-choice>
+    <form #form="ngForm" (ngSubmit)="onOrderSubmit()" [class.submitted]="form.submitted" [formGroup]="productOrderForm">
+      <div class="selection">
+        <div class="color mb-3 flex">
+          <div class="label">Màu</div>
+          <app-color-choice formControlName="color"></app-color-choice>
+        </div>
+        <div class="size mb-3 flex">
+          <div class="label">Size</div>
+          <app-size-choice formControlName="size"></app-size-choice>
+        </div>
+        <div class="quantity flex">
+          <div class="label">Số Lượng</div>
+          <app-quantity-choice formControlName="quantity"></app-quantity-choice>
+          <div class="label w-auto ml-4">417 sản phẩm có sẵn</div>
+        </div>
       </div>
-      <div class="size mb-3 flex">
-        <div class="label">Size</div>
-        <app-size-choice></app-size-choice>
-      </div>
-      <div class="quantity flex">
-        <div class="label">Số Lượng</div>
-        <app-quantity-choice></app-quantity-choice>
-        <div class="label w-auto ml-4">417 sản phẩm có sẵn</div>
-      </div>
+
       <div class="flex mt-8">
-        <button type="button" class="cart-btn add-to-cart-btn">
+        <button type="submit" class="cart-btn add-to-cart-btn">
           <svg enable-background="new 0 0 15 15" viewBox="0 0 15 15" x="0" y="0"><g><g><polyline fill="none" points=".5 .5 2.7 .5 5.2 11 12.4 11 14.5 3.5 3.7 3.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"></polyline><circle cx="6" cy="13.5" r="1" stroke="none"></circle><circle cx="11.5" cy="13.5" r="1" stroke="none"></circle></g><line fill="none" stroke-linecap="round" stroke-miterlimit="10" x1="7.5" x2="10.5" y1="7" y2="7"></line><line fill="none" stroke-linecap="round" stroke-miterlimit="10" x1="9" x2="9" y1="8.5" y2="5.5"></line></g></svg>
           <span>thêm vào giỏ hàng</span>
         </button>

@@ -1,3 +1,5 @@
+@import 'responsive';
+
 mat-dialog-container.mat-dialog-container {
   padding: 0;
 }
@@ -20,6 +22,12 @@ mat-dialog-container.mat-dialog-container {
     padding: 1rem;
     border-radius: 0.5rem;
     background-color: rgba(0, 0, 0, 0.65);
+
+    @include tabletAndDesktop() {
+      padding: 2.5rem 1.25rem;
+      background-color: rgba(0,0,0,.7);
+      border-radius: 0;
+    }
   }
 }
 

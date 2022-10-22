@@ -1,6 +1,39 @@
+@import 'responsive';
+
 .description {
   display: block;
   font-size: 0.875rem;
   color: #fff;
   text-align: center;
+
+  @include tabletAndDesktop() {
+    font-size: 1.0625rem;;
+  }
+}
+
+.toast-icon {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #00bfa5;
+  margin: 1rem auto;
+
+  @include tabletAndDesktop() {
+    display: flex;
+  }
+
+  svg {
+    font-size: 1.875rem;
+    line-height: 3.75rem;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    color: white;
+    position: relative;
+  }
 }

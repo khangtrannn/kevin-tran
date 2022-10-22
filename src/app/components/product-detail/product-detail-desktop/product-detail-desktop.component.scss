@@ -151,6 +151,17 @@
         font-weight: 400;
         color: white;
       }
+
+      .selection {
+        padding: 1rem;
+        margin: -1rem;
+      }
+
+      form.submitted.ng-invalid {
+        .selection {
+          background: #fff5f5;
+        }
+      }
     }
   }
 }
