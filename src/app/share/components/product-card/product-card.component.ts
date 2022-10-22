@@ -13,6 +13,6 @@ export class ProductCardComponent {
   constructor(private router: Router) {}
 
   navigateToProduct(): void {
-    this.router.navigate([`/product/${this.product.id}`]);
+    this.router.navigate([`/product/${this.product.slug}`]);
   }
 }

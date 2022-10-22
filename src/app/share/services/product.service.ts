@@ -27,9 +27,13 @@ export class ProductService {
     return this.products$.asObservable();
   }
 
-  getProductById(id: string): Observable<Product | undefined> {
+  getProductBySlug(slug: string): Observable<Product | undefined> {
     return this.getAllProducts().pipe(
-      map((products) => products.find((product) => product.id === id))
+      map((products) =>
+        products.find(
+          (product) => product.slug.toLowerCase() === slug.toLowerCase()
+        )
+      )
     );
   }
 }
