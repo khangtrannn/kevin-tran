@@ -110,36 +110,6 @@
         padding: 1rem;
         margin: 0;
       }
-
-      .product-attributes-table {
-        font-weight: 300;
-        font-size: 0.875rem;
-        margin: 0 0.75rem 0.625rem;
-        border: solid rgba(0, 0, 0, 0.09) !important;
-        border-width: 0 0 1px !important;
-
-        .product-attributes-sub-table {
-          .attribute {
-            width: 6.875rem;
-            padding: 0.625rem 0;
-            font-weight: 400;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-            color: rgba(0, 0, 0, 0.65);
-          }
-
-          .value {
-            flex: 1;
-            padding: 0.5625rem 0.75rem;
-            background: #fff;
-            color: rgba(0, 0, 0, 0.65);
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-          }
-        }
-      }
     }
 
     ::ng-deep {

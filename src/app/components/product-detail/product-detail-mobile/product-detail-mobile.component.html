@@ -42,13 +42,7 @@
 
   <div class="product-detail__description pb-14">
     <p class="title">Description</p>
-
-    <div class="product-attributes-table">
-      <div *ngFor="let attribute of productAttributes" class="product-attributes-sub-table flex">
-        <div class="attribute">{{ attribute.attribute }}</div>
-        <div class="value">{{ attribute.value }}</div>
-      </div>
-    </div>
+    <app-attribute-table [attributes]="productAttributes"></app-attribute-table>
 
     <div class="mx-[.75rem] py-[.375rem]">
       <p class="font-light text-[.875rem] opacity-[.65] whitespace-pre-line">
