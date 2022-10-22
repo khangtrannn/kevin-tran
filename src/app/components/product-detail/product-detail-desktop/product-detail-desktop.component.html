@@ -1,7 +1,8 @@
 <div class="wrapper">
   <div class="header">
-    <div class="product-img">
-      <img width="450" height="450" [src]="product.image" [alt]="product.title">
+    <div class="product-img relative !mt-5">
+      <img width="450" height="450" (load)="isImageLoading = false" [src]="product.image" [alt]="product.title">
+      <ngx-skeleton-loader *ngIf="isImageLoading" class="absolute top-0 left-0" [theme]="{ 'width.px': 450, 'height.px': 450, 'border-radius': 0 }"></ngx-skeleton-loader>
     </div>
     <div class="content">
       <span class="title">

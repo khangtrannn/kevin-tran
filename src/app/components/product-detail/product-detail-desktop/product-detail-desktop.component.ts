@@ -14,6 +14,8 @@ export class ProductDetailDesktopComponent {
   @Input() product!: Product;
   @Input() productAttributes!: any;
 
+  isImageLoading = true;
+
   productOrderForm = new FormGroup({
     color: new FormControl(null, Validators.required),
     size: new FormControl(null, Validators.required),
