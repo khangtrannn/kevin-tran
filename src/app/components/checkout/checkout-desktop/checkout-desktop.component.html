@@ -1,5 +1,17 @@
 <div class="wrapper">
   <ng-container *ngTemplateOutlet="addressDisplay"></ng-container>
+
+  <div class="product-order">
+    <div class="header-wrapper flex items-center">
+      <div class="flex-4">
+        <div class="text-lg text-[#222]">Sản phẩm</div>
+      </div>
+      <div class="flex-2"></div>
+      <div class="flex-1 text-[.875rem] text-[#bbb] text-center">Đơn giá</div>
+      <div class="flex-1 text-[.875rem] text-[#bbb] text-center">Số lượng</div>
+      <div class="flex-2 text-[.875rem] text-[#bbb] text-right">Thành tiền</div>
+    </div>
+  </div>
 </div>
 
 <ng-template #addressDisplay>
