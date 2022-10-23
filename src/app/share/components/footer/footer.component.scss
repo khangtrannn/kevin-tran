@@ -1,13 +1,17 @@
 @import 'variables';
 @import 'responsive';
 
-.footer-wrapper {
-  border-top: 1px solid rgba(0,0,0,.09);
+.footer-container {
   background-color: white;
+  border-top: 1px solid rgba(0,0,0,.09);
   margin: 1rem auto 0;
+}
+
+.footer-wrapper {
   padding: 2rem 0.75rem;
   font-size: 0.75rem;
   max-width: $app-max-width;
+  margin: 0 auto;
 
   @include tabletAndDesktop() {
     display: grid;
@@ -64,7 +68,7 @@
       margin-top: unset;
       flex-direction: column;
       border-left: 2px solid black;
-      padding-left: 4rem;
+      padding-left: 8rem;
     }
 
     .logo-wrapper {
