@@ -1,3 +1,5 @@
+@import 'variables';
+
 .address-display {
   padding: 14px 12px 18px 14px;
   background-color: #fff;
@@ -16,7 +18,8 @@
     padding: 12px;
     color: rgba(0, 0, 0, 0.54);
     font-size: 13px;
-    background-color: #f6f6f6;
+    // background-color: #f6f6f6;
+    background-color: #fff;
     border-bottom: 1px solid rgba(0, 0, 0, 0.09);
 
     &:nth-child(2n) {
@@ -84,6 +87,20 @@
 
 .total-wrapper {
   justify-content: space-between;
+}
+
+.floating-order {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+  .order-btn {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 16px 24px;
+    color: white;
+    background-color: $primary-color;
+  }
 }
 
 .icon-location-marker {
