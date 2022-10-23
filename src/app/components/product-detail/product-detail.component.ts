@@ -15,7 +15,6 @@ import { ProductService } from './../../share/services/product.service';
 })
 export class ProductDetailComponent implements OnInit, OnDestroy {
   private onDestroy$ = new Subject<void>();
-  private readonly HOST_CLASS = 'product-detail';
 
   product = new Product();
 
@@ -68,10 +67,10 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
       )
       .subscribe((product) => (this.product = product!));
 
-    this.renderer.addClass(this.document.body, this.HOST_CLASS);
+    this.renderer.addClass(this.document.body, 'hide-footer');
   }
 
   ngOnDestroy(): void {
-    this.renderer.removeClass(this.document.body, this.HOST_CLASS);
+    this.renderer.removeClass(this.document.body, 'hide-footer');
   }
 }

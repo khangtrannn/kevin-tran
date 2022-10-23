@@ -95,6 +95,6 @@
   background-clip: text;
 }
 
-:host-context(.app-mobile.product-detail) {
+:host-context(.hide-footer) {
   display: none;
 }
