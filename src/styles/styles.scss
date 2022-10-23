@@ -87,3 +87,9 @@ body {
 .mat-radio-ripple {
   display: none;
 }
+
+.oracle-header-gradient {
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(90deg,var(--oc-colors-main-secondaryBase,#b4ec51) 0,var(--oc-colors-main-secondaryBase,#53a0fd));
+}

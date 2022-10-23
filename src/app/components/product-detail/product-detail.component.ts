@@ -67,7 +67,9 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
       )
       .subscribe((product) => (this.product = product!));
 
-    this.renderer.addClass(this.document.body, 'hide-footer');
+    if (this.isMobile) {
+      this.renderer.addClass(this.document.body, 'hide-footer');
+    }
   }
 
   ngOnDestroy(): void {
