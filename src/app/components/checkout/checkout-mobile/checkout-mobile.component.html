@@ -16,9 +16,29 @@
 </div>
 
 <div class="product-order">
-  <div class="product-order-item">
+  <div *ngFor="let i of [].constructor(3)" class="product-order-item">
     <div class="img-wrapper">
       <img src="https://cf.shopee.vn/file/5707a6fd40bd4029bcd9e8dd157e70ad">
     </div>
+    <div class="detail">
+      <div class="title">Áo thun nam cá sấu polo nhiều màu thời trang Everest AoCasau</div>
+      <div class="flex justify-between">
+        <div class="category">Phân loại hàng: Casau-Đen,XL</div>
+        <div>
+          <div class="flex justify-end">x 1</div>
+          <div class="text-[0.875rem]">₫65.000</div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+
+<label class="note-wrapper">
+  <span class="label">Tin nhắn:</span>
+  <input class="_9kK3KQ typo-l14" type="text" placeholder="Để lại lưu ý..." value="">
+</label>
+
+<label class="total-wrapper">
+  <span class="label">Thành tiền (1 sản phẩm):</span>
+  <span class="price font-medium text-base text-[#d0011b]">₫93.700</span>
+</label>
