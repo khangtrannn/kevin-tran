@@ -41,6 +41,35 @@
     height: 50px;
     padding: 24px 30px 0;
   }
+
+  &-item {
+    display: flex;
+    width: 100%;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+      color: #222;
+      min-height: 55px;
+      padding: 24px 30px 0;
+    }
+
+    .product-image {
+      display: flex;
+      flex: 4;
+    }
+
+    .category-label {
+      padding: 0 1rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
 }
 
 .letter-top-border {
