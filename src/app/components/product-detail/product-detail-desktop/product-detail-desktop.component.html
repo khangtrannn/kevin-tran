@@ -26,20 +26,24 @@
   </div>
 </div>
 
-<div class="detail">
-  <div class="detail-wrapper">
-    <div class="title">CHI TIẾT SẢN PHẨM</div>
-    <div class="attribute-wrapper">
-      <app-attribute-table [attributes]="productAttributes"></app-attribute-table>
-    </div>
+<div class="main-content">
+  <div class="detail">
+    <div class="detail-wrapper">
+      <div class="title">CHI TIẾT SẢN PHẨM</div>
+      <div class="attribute-wrapper">
+        <app-attribute-table [attributes]="productAttributes"></app-attribute-table>
+      </div>
 
-    <div class="title mt-8 mb-4">MÔ TẢ SẢN PHẨM</div>
-    <div class="mx-[1.25rem] py-[.375rem]">
-      <p class="text-[.875rem] leading-[1.9] opacity-[.8] whitespace-pre-line">
-        {{ description }}
-      </p>
+      <div class="title mt-8 mb-4">MÔ TẢ SẢN PHẨM</div>
+      <div class="mx-[1.25rem] py-[.375rem]">
+        <p class="text-[.875rem] leading-[1.9] opacity-[.8] whitespace-pre-line">
+          {{ description }}
+        </p>
+      </div>
     </div>
   </div>
+
+  <app-best-seller></app-best-seller>
 </div>
 
 <ng-template #discountTemplate>

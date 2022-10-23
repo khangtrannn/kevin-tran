@@ -6,6 +6,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 import { ShareModule } from './../../share/share.module';
 import { AttributeTableComponent } from './components/attribute-table/attribute-table.component';
+import { BestSellerComponent } from './components/best-seller/best-seller.component';
 import { ProductBottomPanelComponent } from './components/product-bottom-panel/product-bottom-panel.component';
 import { ColorChoiceComponent } from './components/product-order/color-choice/color-choice.component';
 import { ProductOrderComponent } from './components/product-order/product-order.component';
@@ -44,6 +45,7 @@ const routes: Routes = [
     SizeChoiceComponent,
     QuantityChoiceComponent,
     AttributeTableComponent,
+    BestSellerComponent,
   ],
 })
 export class ProductDetailModule {}

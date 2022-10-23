@@ -1,0 +1,14 @@
+<div class="wrapper">
+  <div class="header">Top sản phẩm bán chạy</div>
+
+  <div class="content">
+    <div *ngFor="let item of products" class="best-seller-item">
+      <div class="image-container">
+        <img width="192" height="192" [alt]="item.title" [src]="item.image" />
+      </div>
+      <span class="title">{{ item.title }}</span>
+      <span class="price">{{ item.price }}</span>
+    </div>
+  </div>
+</div>
+
