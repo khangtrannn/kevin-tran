@@ -17,7 +17,9 @@ export class ProductService {
       .pipe(
         tap((products) =>
           this.products$.next(
-            products.map((product) => Object.assign(new Product(), product))
+            products
+              .map((product) => Object.assign(new Product(), product))
+              .sort(() => Math.random() - 0.5)
           )
         )
       );

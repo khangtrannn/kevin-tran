@@ -3,8 +3,8 @@
 </div>
 
 <div class="wrapper">
-  <ng-container *ngIf="productData$ | async as data">
-    <app-product-card *ngFor="let product of data.slice(0, 24)" [product]="product"></app-product-card>
-    <button class="more-btn">Sản phẩm khác</button>
+  <ng-container *ngIf="productData$ | async as products">
+    <app-product-card *ngFor="let product of products.slice(0, getIsLimit() ? PRODUCT_LIMIT : products.length)" [product]="product"></app-product-card>
+    <a *ngIf="getIsLimit()" (click)="onMoreProductClick()" class="more-btn">Sản phẩm khác</a>
   </ng-container>
 </div>
