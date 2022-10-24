@@ -5,10 +5,13 @@ import { OrderService } from './../../services/order.service';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+  styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent {
-  orders$ = this.orderService.getOrders();
+  totalOrderNumber$ = this.orderService.getTotalNumber();
 
-  constructor(@Inject(IS_MOBILE) public isMobile: boolean, private orderService: OrderService) {}
+  constructor(
+    @Inject(IS_MOBILE) public isMobile: boolean,
+    private orderService: OrderService
+  ) {}
 }
