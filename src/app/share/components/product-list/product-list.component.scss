@@ -14,7 +14,7 @@
   .title {
     font-size: 1rem;
     font-weight: 500;
-    color: rgb(238, 77, 45);
+    color: $primary-color;
     text-transform: uppercase;
   }
 }
@@ -31,12 +31,15 @@
 }
 
 .more-btn {
-  padding: 0.5rem 0.75rem;
   font-size: 0.875rem;
   background-color: $primary-color;
   color: white;
   border: none;
   display: block;
+  text-align: center;
+  margin: 1rem auto;
+  font-weight: 500;
+  padding: 0.625rem 1.75rem;
 }
 
 :host ::ng-deep {

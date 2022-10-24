@@ -5,5 +5,6 @@
 <div class="wrapper">
   <ng-container *ngIf="productData$ | async as data">
     <app-product-card *ngFor="let product of data.slice(0, 24)" [product]="product"></app-product-card>
+    <button class="more-btn">Sản phẩm khác</button>
   </ng-container>
 </div>
