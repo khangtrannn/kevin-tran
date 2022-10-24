@@ -3,5 +3,5 @@
 </ng-container>
 
 <ng-container *ngIf="!isMobile">
-  <app-checkout-desktop></app-checkout-desktop>
+  <app-checkout-desktop [orders]="(orders$ | async) || []"></app-checkout-desktop>
 </ng-container>

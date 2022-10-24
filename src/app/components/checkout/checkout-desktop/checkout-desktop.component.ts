@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Order } from 'src/app/models/order';
+import { ProductService } from './../../../share/services/product.service';
 
 @Component({
   selector: 'app-checkout-desktop',
@@ -6,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./checkout-desktop.component.scss'],
 })
 export class CheckoutDesktopComponent implements OnInit {
-  constructor() {}
+  @Input() orders!: Order[];
+  productDetail = (id: string) => this.productService.getProductById(id);
+
+  constructor(private productService: ProductService) {}
 
   ngOnInit() {}
 }

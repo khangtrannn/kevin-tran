@@ -10,16 +10,20 @@
       <div class="text-[#bbb] text-right">Thành tiền</div>
     </div>
 
-    <div class="product-order-item">
-      <div class="product-image flex">
-        <img width="80" height="80" src="https://cf.shopee.vn/file/61bd6faf678cfe9ab322a91c7028eb6f_tn" alt="">
-        <span class="title ml-4 mr-6">Áo polo nam vải cotton cá sấu sọc nhỏ thấm hút mồ hôi HIDDLE</span>
-      </div>
-      <span class="text-[#929292] category-label">Loại: Đen sọc H02-T06,L (65-75kg)</span>
-      <div class="text-center">₫175.000</div>
-      <div class="text-center">1</div>
-      <div class="text-right">₫175.000</div>
-    </div>
+    <ng-container *ngFor="let order of orders">
+      <ng-container *ngIf="productDetail(order.productId) | async as data">
+        <div class="product-order-item">
+          <div class="product-image flex">
+            <img width="80" height="80" [src]="data.thumbnail" [alt]="data.title">
+            <span class="title ml-4 mr-6">{{ data.title }}</span>
+          </div>
+          <span class="text-[#929292] category-label">Loại: {{order.color}},{{order.size}}</span>
+          <div class="text-center">₫{{ data.price | number }}</div>
+          <div class="text-center">{{ order.quantity }}</div>
+          <div class="text-right">₫{{ data.price * order.quantity | number }}</div>
+        </div>
+      </ng-container>
+    </ng-container>
   </div>
 </div>
 

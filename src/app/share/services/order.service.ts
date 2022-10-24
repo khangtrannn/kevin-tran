@@ -12,6 +12,7 @@ export class OrderService {
 
   constructor(private storageService: StorageService) {
     const orders = this.storageService.getItem(LocalStorageKey.PRODUCT_ORDERS);
+    this.orders = orders as Order[];
     this.orders$.next(orders as Order[]);
   }
 
