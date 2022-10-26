@@ -16,37 +16,34 @@
 </div>
 
 <div class="product-order">
-  <div *ngFor="let i of [].constructor(3)" class="product-order-item">
-    <div class="img-wrapper">
-      <img src="https://cf.shopee.vn/file/5707a6fd40bd4029bcd9e8dd157e70ad">
-    </div>
-    <div class="detail">
-      <div class="title">Áo thun nam cá sấu polo nhiều màu thời trang Everest AoCasau</div>
-      <div class="flex justify-between">
-        <div class="category">Phân loại hàng: Casau-Đen,XL</div>
-        <div>
-          <div class="flex justify-end">x 1</div>
-          <div class="text-[0.875rem]">₫65.000</div>
+  <div *ngFor="let order of orders$ | async" class="product-order-item">
+    <ng-container *ngIf="getProductDetail(order.productId) | async as product">
+      <div class="img-wrapper">
+        <img [src]="product.thumbnail" [alt]="product.title">
+      </div>
+      <div class="detail">
+        <div class="title">{{ product.title }}</div>
+        <div class="flex justify-between">
+          <div class="category">Phân loại hàng: {{ order.color }}, {{ order.size }}</div>
+          <div>
+            <div class="flex justify-end">x {{ order.quantity }}</div>
+            <div class="text-[0.875rem]">₫{{ product.price | number }}</div>
+          </div>
         </div>
       </div>
-    </div>
+    </ng-container>
   </div>
 </div>
 
-<label class="note-wrapper">
+<label class="note-wrapper mb-[69px]">
   <span class="label">Tin nhắn:</span>
   <input class="_9kK3KQ typo-l14" type="text" placeholder="Để lại lưu ý..." value="">
-</label>
-
-<label class="total-wrapper">
-  <span class="label">Thành tiền (1 sản phẩm):</span>
-  <span class="price font-medium text-base text-[#d0011b]">₫93.700</span>
 </label>
 
 <div class="floating-order flex w-full bg-[#fff]">
   <div class="price pr-5 flex flex-col justify-center items-end flex-1">
     <span class="font-light text-[0.875rem]">Thành tiền</span>
-    <span class="font-medium text-[#d0011b] text-[1.125rem]">₫93.700</span>
+    <span class="font-medium text-[#d0011b] text-[1.125rem]">₫{{ (totalPrice$ | async | number ) }}</span>
   </div>
   <div class="order-btn cursor-pointer">
     Đặt hàng

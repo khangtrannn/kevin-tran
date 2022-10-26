@@ -1,4 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Router } from '@angular/router';
 import { Order } from 'src/app/models/order';
 import { ProductService } from './../../../share/services/product.service';
 
@@ -7,11 +8,13 @@ import { ProductService } from './../../../share/services/product.service';
   templateUrl: './checkout-desktop.component.html',
   styleUrls: ['./checkout-desktop.component.scss'],
 })
-export class CheckoutDesktopComponent implements OnInit {
+export class CheckoutDesktopComponent {
   @Input() orders!: Order[];
   productDetail = (id: string) => this.productService.getProductById(id);
 
-  constructor(private productService: ProductService) {}
+  constructor(private productService: ProductService, private router: Router) {}
 
-  ngOnInit() {}
+  navigateToProduct(slug: string): void {
+    this.router.navigate(['/product', slug]);
+  }
 }

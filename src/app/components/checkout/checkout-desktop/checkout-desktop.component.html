@@ -12,7 +12,7 @@
 
     <ng-container *ngFor="let order of orders">
       <ng-container *ngIf="productDetail(order.productId) | async as data">
-        <div class="product-order-item">
+        <div (click)="navigateToProduct(data.slug)" class="product-order-item cursor-pointer">
           <div class="product-image flex">
             <img width="80" height="80" [src]="data.thumbnail" [alt]="data.title">
             <span class="title ml-4 mr-6">{{ data.title }}</span>
